@@ -1,4 +1,0 @@
-mappings:
-  SiteConfigExtras: Sunnysideup\App\Config\SiteConfigExtras
-  SSDatetime: Sunnysideup\App\Hacks\SSDatetime
-  CalendarDateField: Sunnysideup\App\Hacks\CalendarDateField
