@@ -1,1 +1,13 @@
 /* variables */
+body {
+  background: url(images/hello.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+  padding: 4vh;
+  font-size: 9vw;
+}
