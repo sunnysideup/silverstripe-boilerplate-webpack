@@ -12,6 +12,7 @@
 
     <main id="main">
         <div class="typography">
+          <h1>Awesome Pink</h1>
             $Layout
         </div>
     </main>
@@ -34,6 +35,7 @@
 
     <main id="main">
         <div class="typography">
+          <h1>Awesome Pink</h1>
             $Layout
         </div>
     </main>
