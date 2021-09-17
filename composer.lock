@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9ecf77c6af41b727effa10f1a39a4df",
+    "content-hash": "70802b5acfb45c26fdc342c22bd5b93e",
     "packages": [
         {
             "name": "a2nt/silverstripe-treemultiselect-sortable-field",
@@ -5583,6 +5583,164 @@
             "time": "2020-11-10T18:47:58+00:00"
         },
         {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7008573787b430c1c1f650e3722d9bba59967628",
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.4",
+                "guzzlehttp/psr7": "^1.7 || ^2.0",
+                "php": "^7.2.5 || ^8.0",
+                "psr/http-client": "^1.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^3.0",
+                "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+                "psr/log": "^1.1"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://sagikazarmark.hu"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/alexeyshockov",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/gmponos",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-23T11:33:13+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.4.1"
+            },
+            "time": "2021-03-07T09:25:29+00:00"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.10.2",
             "source": {
@@ -6224,6 +6382,58 @@
             "time": "2018-02-01T05:50:59+00:00"
         },
         {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "time": "2020-06-29T06:28:15+00:00"
+        },
+        {
             "name": "sebastian/code-unit-reverse-lookup",
             "version": "1.0.2",
             "source": {
@@ -6850,17 +7060,129 @@
             "time": "2020-09-22T09:13:40+00:00"
         },
         {
-            "name": "sunnysideup/sswebpack_engine_only",
-            "version": "8.2.0",
+            "name": "sunnysideup/config_manager",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sunnysideup/silverstripe-sswebpack_engine_only.git",
-                "reference": "de7789d71f29f665ee22a5ccad21440d41af23c7"
+                "url": "https://github.com/sunnysideup/silverstripe-config_manager.git",
+                "reference": "856a52e9de9688e2f2d4d909630174c9a47077cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-sswebpack_engine_only/zipball/de7789d71f29f665ee22a5ccad21440d41af23c7",
-                "reference": "de7789d71f29f665ee22a5ccad21440d41af23c7",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-config_manager/zipball/856a52e9de9688e2f2d4d909630174c9a47077cd",
+                "reference": "856a52e9de9688e2f2d4d909630174c9a47077cd",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4@stable",
+                "sunnysideup/table_filter_sort": "dev-master"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\ConfigManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Silverstripe developers module that helps you get a better grip on the config layer",
+            "keywords": [
+                "Silverstripe CMS",
+                "Silverstripe-CMS",
+                "cms",
+                "config",
+                "silverstripe",
+                "statics",
+                "yaml",
+                "yml"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-config_manager/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-config_manager/tree/master"
+            },
+            "time": "2021-04-03T22:32:20+00:00"
+        },
+        {
+            "name": "sunnysideup/prettyphoto",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-prettyphoto.git",
+                "reference": "a92cdda351ef095050b3e2fbc562ea08282072ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-prettyphoto/zipball/a92cdda351ef095050b3e2fbc562ea08282072ac",
+                "reference": "a92cdda351ef095050b3e2fbc562ea08282072ac",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-cms": "^4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/javascript",
+                    "client/images",
+                    "client/css"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\PrettyPhoto\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "adds 'pretty photo' - a jQuery library to your Silverstripe application ",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "gallery",
+                "jquery",
+                "modal",
+                "pop-up",
+                "prettyPhoto",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-prettyphoto/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-prettyphoto/tree/2.0.3"
+            },
+            "time": "2021-04-11T09:51:49+00:00"
+        },
+        {
+            "name": "sunnysideup/sswebpack_engine_only",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-sswebpack_engine_only.git",
+                "reference": "cf24d6b7109d2ddfa3dc659d325fcd2a020ca9ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-sswebpack_engine_only/zipball/cf24d6b7109d2ddfa3dc659d325fcd2a020ca9ce",
+                "reference": "cf24d6b7109d2ddfa3dc659d325fcd2a020ca9ce",
                 "shasum": ""
             },
             "require": {
@@ -6869,6 +7191,13 @@
             "suggest": {
                 "sunnysideup/webpack_requirements_backend": "Make it work with Silvertripe"
             },
+            "default-branch": true,
+            "bin": [
+                "bin/webpack-install",
+                "bin/webpack-dev",
+                "bin/webpack-watch",
+                "bin/webpack-build"
+            ],
             "type": "silverstripe-theme",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6894,9 +7223,130 @@
             ],
             "support": {
                 "issues": "https://github.com/sunnysideup/silverstripe-sswebpack_engine_only/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-sswebpack_engine_only/tree/8.2.0"
+                "source": "https://github.com/sunnysideup/silverstripe-sswebpack_engine_only/tree/master"
             },
-            "time": "2021-04-28T12:52:26+00:00"
+            "time": "2021-09-16T22:27:04+00:00"
+        },
+        {
+            "name": "sunnysideup/table_filter_sort",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-table_filter_sort.git",
+                "reference": "b718476caf819751253c2af80c85687cecef2d2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-table_filter_sort/zipball/b718476caf819751253c2af80c85687cecef2d2d",
+                "reference": "b718476caf819751253c2af80c85687cecef2d2d",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-cms": "^4.4"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/javascript",
+                    "client/images",
+                    "client/css"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\TableFilterSort\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "A javascript module that allows you to filter and sort complex tables.  Primarily written for the Silverstripe CMS",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "filter",
+                "javascript",
+                "silverstripe",
+                "sort",
+                "table"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-table_filter_sort/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-table_filter_sort/tree/master"
+            },
+            "time": "2021-09-11T10:39:31+00:00"
+        },
+        {
+            "name": "sunnysideup/templateoverview",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-templateoverview.git",
+                "reference": "2f3bf658974f3f32e4f497e26c416c6f17e09f1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-templateoverview/zipball/2f3bf658974f3f32e4f497e26c416c6f17e09f1e",
+                "reference": "2f3bf658974f3f32e4f497e26c416c6f17e09f1e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0 || ^7.0",
+                "sebastian/diff": "*",
+                "silverstripe/cms": "^4.0",
+                "sunnysideup/prettyphoto": "*"
+            },
+            "suggest": {
+                "sebastian/diff": "Show diff for html files"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/javascript",
+                    "client/css"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\TemplateOverview\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "adds development tools for building silverstripe websites, in particular around managing page types.",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "page types",
+                "review",
+                "silverstripe",
+                "template review",
+                "templateoverview"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-templateoverview/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-templateoverview/tree/master"
+            },
+            "time": "2021-09-11T10:41:03+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6974,7 +7424,11 @@
         "sunnysideup/cms-niceties": 20,
         "sunnysideup/cms_edit_link_field": 20,
         "sunnysideup/metatags": 20,
-        "sunnysideup/googleanalyticsbasics": 20
+        "sunnysideup/googleanalyticsbasics": 20,
+        "sunnysideup/templateoverview": 20,
+        "sunnysideup/prettyphoto": 20,
+        "sunnysideup/sswebpack_engine_only": 20,
+        "sunnysideup/config_manager": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
