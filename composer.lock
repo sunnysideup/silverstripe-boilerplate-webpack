@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bcd4b5d069bcfda356e95bb915626bc",
+    "content-hash": "a9ecf77c6af41b727effa10f1a39a4df",
     "packages": [
         {
             "name": "a2nt/silverstripe-treemultiselect-sortable-field",
@@ -3391,6 +3391,61 @@
                 "source": "https://github.com/sunnysideup/silverstripe-error-log-made-easy/tree/1.0.1"
             },
             "time": "2021-03-31T00:57:58+00:00"
+        },
+        {
+            "name": "sunnysideup/googleanalyticsbasics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-googleanalyticsbasics.git",
+                "reference": "6fc24427c6bca26ab36cd199eef8f826facb11d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-googleanalyticsbasics/zipball/6fc24427c6bca26ab36cd199eef8f826facb11d9",
+                "reference": "6fc24427c6bca26ab36cd199eef8f826facb11d9",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4.0",
+                "silverstripe/recipe-cms": "*"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\GoogleAnalyticsBasics\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "add google analytics to your Silverstripe website",
+            "keywords": [
+                "Silverstripe-CMS",
+                "analytics",
+                "cms",
+                "ga",
+                "google",
+                "google analytics",
+                "googleanalyticsbasics",
+                "silverstripe",
+                "statistics",
+                "visitors"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-googleanalyticsbasics/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-googleanalyticsbasics/tree/master"
+            },
+            "time": "2021-08-07T03:45:34+00:00"
         },
         {
             "name": "sunnysideup/internal-external-link",
@@ -6918,7 +6973,8 @@
         "a2nt/silverstripe-treemultiselect-sortable-field": 20,
         "sunnysideup/cms-niceties": 20,
         "sunnysideup/cms_edit_link_field": 20,
-        "sunnysideup/metatags": 20
+        "sunnysideup/metatags": 20,
+        "sunnysideup/googleanalyticsbasics": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

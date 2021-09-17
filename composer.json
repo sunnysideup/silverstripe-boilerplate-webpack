@@ -64,7 +64,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "MyWebsite\\Website\\": "app/src"
+            "MysiteNz\\Website\\": "app/src"
         },
         "files": [
             "app/src/Page.php",
