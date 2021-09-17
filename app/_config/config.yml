@@ -1,5 +1,5 @@
 ---
-Name: mysite.nz
+Name: mysite-nz-config
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: app

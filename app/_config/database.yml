@@ -1,5 +1,5 @@
 ---
-Name: myproject-database
+Name: mysite-nz-database
 ---
 SilverStripe\ORM\Connect\MySQLDatabase:
   connection_charset: utf8mb4
