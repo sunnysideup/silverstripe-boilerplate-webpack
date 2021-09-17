@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70802b5acfb45c26fdc342c22bd5b93e",
+    "content-hash": "baa777fc2b4bf34200729cdbfebed448",
     "packages": [
         {
             "name": "a2nt/silverstripe-treemultiselect-sortable-field",
@@ -3804,6 +3804,57 @@
             "time": "2021-07-18T21:50:27+00:00"
         },
         {
+            "name": "sunnysideup/simple-template-caching",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-simple-template-caching.git",
+                "reference": "ff6b8b2d6c3014440d1e17cc01a41243e5b5daa9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-simple-template-caching/zipball/ff6b8b2d6c3014440d1e17cc01a41243e5b5daa9",
+                "reference": "ff6b8b2d6c3014440d1e17cc01a41243e5b5daa9",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\SimpleTemplateCaching\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                },
+                {
+                    "name": "LABCAT",
+                    "homepage": "https://github.com/LABCAT/"
+                }
+            ],
+            "description": "Basic functions for caching content in your SS templates.",
+            "keywords": [
+                "cache",
+                "content",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-simple-template-caching/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-simple-template-caching/tree/master"
+            },
+            "time": "2021-07-18T20:44:56+00:00"
+        },
+        {
             "name": "sunnysideup/typography",
             "version": "dev-master",
             "source": {
@@ -7425,6 +7476,7 @@
         "sunnysideup/cms_edit_link_field": 20,
         "sunnysideup/metatags": 20,
         "sunnysideup/googleanalyticsbasics": 20,
+        "sunnysideup/simple-template-caching": 20,
         "sunnysideup/templateoverview": 20,
         "sunnysideup/prettyphoto": 20,
         "sunnysideup/sswebpack_engine_only": 20,
