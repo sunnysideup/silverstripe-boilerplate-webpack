@@ -34,7 +34,12 @@
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "sunnysideup/sswebpack_engine_only": "^8.2",
-        "sminnee/phpunit-mock-objects": "^3.4.5"
+        "sminnee/phpunit-mock-objects": "^3.4.5",
+        "sunnysideup/templateoverview": "dev-master",
+        "sunnysideup/prettyphoto": "dev-master",
+        "sunnysideup/typography": "dev-master",
+        "sunnysideup/sswebpack_engine_only": "dev-master",
+        "sunnysideup/config_manager": "dev-master"
     },
     "extra": {
         "resources-dir": "_resources",
