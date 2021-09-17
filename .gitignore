@@ -12,8 +12,8 @@ npm-debug.log
 /vendor
 /public/assets/
 /public/resources/
+/public/_resources/
 /public/cache/
 /public/offline/
 
 /themes/sswebpack_engine_only
-/themes/sun
