@@ -28,7 +28,8 @@
         "wilr/silverstripe-googlesitemaps": "^2.1",
         "jonom/focuspoint": "^4.0",
         "sunnysideup/cms_edit_link_field": "dev-master",
-        "sunnysideup/metatags": "dev-master"
+        "sunnysideup/metatags": "dev-master",
+        "sunnysideup/googleanalyticsbasics": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
