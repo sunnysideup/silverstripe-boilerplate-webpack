@@ -1,5 +1,5 @@
 ---
-Name: sunnysideup
+Name: mysite.nz
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: app
@@ -10,14 +10,14 @@ SilverStripe\View\SSViewer:
     - base
     - $default
 SilverStripe\Control\Email\Email:
-  admin_email: info@tearotake.govt.nz
+  admin_email: info@mysite.nz
 
 SilverStripe\i18n\i18n:
   locale: en_NZ
   date_format: dd-MM-YYYY
 
 SilverStripe\Admin\LeftAndMain:
-  application_name: 'Tearotake'
+  application_name: 'mysite.nz'
 
 SilverStripe\Admin\ModelAdmin:
   page_length: 100

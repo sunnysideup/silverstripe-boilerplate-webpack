@@ -50,7 +50,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "TeArotake\\Website\\": "app/src"
+            "MyWebsite\\Website\\": "app/src"
         },
         "files": [
             "app/src/Page.php",
