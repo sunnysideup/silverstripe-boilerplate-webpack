@@ -1,0 +1,26 @@
+---
+Name: sunnysideup
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+SilverStripe\View\SSViewer:
+  themes:
+    - $public
+    - sun
+    - $default
+SilverStripe\Control\Email\Email:
+  admin_email: info@sunnysideup.co.nz
+
+SilverStripe\i18n\i18n:
+  locale: en_NZ
+  date_format: dd-MM-YYYY
+
+SilverStripe\Admin\LeftAndMain:
+  application_name: 'Sunny Side Up'
+
+SilverStripe\Admin\ModelAdmin:
+  page_length: 100
+
+Sunnysideup\WebpackRequirementsBackend\Api\Configuration:
+  webpack_theme: sun

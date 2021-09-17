@@ -1,0 +1,60 @@
+{
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": ">=7.4.0",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "^4.8",
+        "silverstripe/login-forms": "^4.1",
+        "dnadesign/silverstripe-elemental": "^4",
+        "silverstripe/spamprotection": "^3.0",
+        "undefinedoffset/sortablegridfield": "^2.0",
+        "sunnysideup/phone_field": "dev-master",
+        "sunnysideup/email_address_database_field": "dev-master",
+        "sunnysideup/error-log-made-easy": "dev-master",
+        "sunnysideup/elemental-edit-me-button": "dev-main",
+        "sunnysideup/webpack_requirements_backend": "dev-master",
+        "sunnysideup/perfect_cms_images": "dev-master",
+        "sunnysideup/share_this_simple": "dev-master",
+        "sunnysideup/internal-external-link": "dev-master",
+        "sunnysideup/elemental-switch-tabs": "dev-master",
+        "sunnysideup/typography": "dev-master",
+        "a2nt/silverstripe-treemultiselect-sortable-field": "dev-main",
+        "silverstripe/userforms": "^5.8",
+        "undefinedoffset/silverstripe-nocaptcha": "^2.1",
+        "sunnysideup/cms-niceties": "dev-master",
+        "bummzack/sortablefile": "^2.1",
+        "wilr/silverstripe-googlesitemaps": "^2.1",
+        "jonom/focuspoint": "^4.0",
+        "sunnysideup/cms_edit_link_field": "dev-master",
+        "sunnysideup/metatags": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "sunnysideup/sswebpack_engine_only": "^8.2",
+        "sminnee/phpunit-mock-objects": "^3.4.5"
+    },
+    "extra": {
+        "resources-dir": "_resources",
+        "expose": [
+            "themes/client/dist",
+            "themes/client/src/fonts",
+            "themes/client/src/images"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TeArotake\\Website\\": "app/src"
+        },
+        "files": [
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ]
+    }
+}

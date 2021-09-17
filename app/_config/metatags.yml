@@ -1,0 +1,6 @@
+---
+Name: sunnysideup_metatags
+---
+
+Sunnysideup\MetaTags\Extension\MetaTagsContentControllerEXT:
+  use_separate_metatitle: true

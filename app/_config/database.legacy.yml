@@ -1,0 +1,8 @@
+---
+Name: sunnysideup_database_legacy
+---
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    classname_value_remapping:
+      classname_value_remapping:
+        SiteConfigExtras: Sunnysideup\App\Config\SiteConfigExtras
