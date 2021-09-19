@@ -11,59 +11,59 @@ For more elemental modules, please visit: [https://ssmods.com/#~(cfi~(Requires~(
 ## better CMS experience
 
  - undefinedoffset/sortablegridfield (https://github.com/UndefinedOffset/SortableGridField): sorting lists is a common requirement
- - bummzack/sortablefile: allow files to be sorted
- - sunnysideup/email_address_database_field: better user-experience for email fields
- - sunnysideup/error-log-made-easy: easy logging of errors
- - sunnysideup/elemental-edit-me-button: we love the workflow of editing elemental blocks directly from the front-end
- - sunnysideup/elemental-switch-tabs: make it easier to switch tabs in the Elemental Editor
- - sunnysideup/internal-external-link: add a link that is an internal link, external link, file, phone number or email
- - sunnysideup/cms-niceties: several enhancements in the CMS
- - sunnysideup/cms_edit_link_field: link through to any object in the CMS
- - sunnysideup/cleaner_tinymce_config: simple html editor
- - sunnysideup/avoid-child-deletion: avoid accidentally deleting key pages like the home page
- - sunnysideup/sortable_list_view: sort your pages in `list view`
- - sunnysideup/yes-no-any-filter: improved search filters
- - sunnysideup/collect-elemental-content: collect all the content from elemental in one field, for easy searching
- - sunnysideup/dataobjectsorter: enhanced sorting and editing modes
+ - bummzack/sortablefile (https://github.com/bummzack/sortablefile): allow files to be sorted
+ - sunnysideup/email_address_database_field (https://github.com/sunnysideup/silverstripe-email_address_database_field): better user-experience for email fields
+ - sunnysideup/error-log-made-easy (https://github.com/sunnysideup/silverstripe-error-log-made-easy): easy logging of errors
+ - sunnysideup/elemental-edit-me-button (https://github.com/sunnysideup/silverstripe-elemental-edit-me-button): we love the workflow of editing elemental blocks directly from the front-end
+ - sunnysideup/elemental-switch-tabs (https://github.com/sunnysideup/silverstripe-elemental-switch-tabs): make it easier to switch tabs in the Elemental Editor
+ - sunnysideup/internal-external-link (https://github.com/sunnysideup/silverstripe-internal-external-link): add a link that is an internal link, external link, file, phone number or email
+ - sunnysideup/cms-niceties (https://github.com/sunnysideup/silverstripe-cms-niceties): several enhancements in the CMS
+ - sunnysideup/cms_edit_link_field (https://github.com/sunnysideup/silverstripe-cms_edit_link_field): link through to any object in the CMS
+ - sunnysideup/cleaner_tinymce_config (https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config): simple html editor
+ - sunnysideup/avoid-child-deletion (https://github.com/sunnysideup/silverstripe-avoid-child-deletion): avoid accidentally deleting key pages like the home page
+ - sunnysideup/sortable_list_view (https://github.com/sunnysideup/silverstripe-sortable_list_view): sort your pages in `list view`
+ - sunnysideup/yes-no-any-filter (https://github.com/sunnysideup/silverstripe-yes-no-any-filter): improved search filters
+ - sunnysideup/https://github.com/sunnysideup/silverstripe-collect-elemental-content): collect all the content from elemental in one field, for easy searching
+ - sunnysideup/dataobjectsorter (https://github.com/sunnysideup/silverstripe-dataobjectsorter): enhanced sorting and editing modes
 
 
 ##### also consider
 
- - symbiote/silverstripe-gridfieldextensions: even better grid fields
- - jonom/silverstripe-betternavigator: awesome addition to bring back-end info to front-end
- - silverstripe-youtube-database-field: youtube videos field made easy
+ - symbiote/silverstripe-gridfieldextensions (https://github.com/symbiote/silverstripe-gridfieldextensions): even better grid fields
+ - jonom/silverstripe-betternavigator (https://github.com/jonom/silverstripe-betternavigator): awesome addition to bring back-end info to front-end
+ - silverstripe-youtube-database-field (https://github.com/sunnysideup/silverstripe-youtube-database-field): youtube videos field made easy
  - [sunnysideup/vimeoembed](https://github.com/sunnysideup/silverstripe-vimeoembed): vimeo made easy
  - [silverstripe/lumberjack](https://github.com/silverstripe/silverstripe-lumberjack): a must have for sites with (too) many pages
 
 ## front-end and loading time enhancements
 
- - sunnysideup/typography: review your typography and get your CMS Editor in-sync with your editor file.
- - sunnysideup/phone_field: make your phone links clickable links.
- - silverstripe/userforms: an old favourite
- - sunnysideup/typography: review your typography and get your CMS Editor in-sync with your editor file.
+ - sunnysideup/typography (https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
+ - sunnysideup/phone_field (https://github.com/sunnysideup/silverstripe-phone_field): make your phone links clickable links.
+ - silverstripe/userforms (https://github.com/silverstripe/silverstripe-userforms): an old favourite
+ - sunnysideup/typography (https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
  - [sunnysideup/object-cacher](https://github.com/sunnysideup/silverstripe-object-cacher/): cache objects
 
 
 ## images
- - sunnysideup/perfect_cms_images: faster images (use web-p, consider retina, etc... )
+ - sunnysideup/perfect_cms_images (https://github.com/sunnysideup/silverstripe-perfect_cms_images): faster images (use web-p, consider retina, etc... )
 
 ## also consider
- - stevie-mayhew/silverstripe-svg": add support for SVGs
- - jonom/focuspoint: allow a focus point to be set on images so that resizing works a charm
- - axllent/silverstripe-scaled-uploads
+ - stevie-mayhew/silverstripe-svg (https://github.com/stevie-mayhew/silverstripe-svg): add support for SVGs
+ - jonom/focuspoint (https://github.com/jonom/silverstripe-focuspoint): allow a focus point to be set on images so that resizing works a charm
+ - axllent/silverstripe-scaled-uploads (https://github.com/axllent/silverstripe-scaled-uploads)
 
 ### webpack ready to go
 
- - sunnysideup/webpack_requirements_backend: sets up links to webpack dist files.
- - sunnysideup/sswebpack_engine_only: webpack 5, ready to go:
+ - sunnysideup/webpack_requirements_backend (https://github.com/sunnysideup/silverstripe-webpack_requirements_backend): sets up links to webpack dist files.
+ - sunnysideup/sswebpack_engine_only (https://github.com/sunnysideup/silverstripe-sswebpack_engine_only): webpack 5, ready to go:
 
 ## happier devs
 
- - sunnysideup/share_this_simple: make it easy to share any object in social media.
- - sunnysideup/simple-template-caching: chache anything with minimal effort
- - sunnysideup/config_manager: review all your configuration options in one go
- - sunnysideup/test-email: is email working?  Why not test it?
- - sunnysideup/sanitise-class-name: turn fully qualified class names into short one in a standard way - should be part of the Silverstripe Core.
+ - sunnysideup/share_this_simple (https://github.com/sunnysideup/silverstripe-share_this_simple): make it easy to share any object in social media.
+ - sunnysideup/simple-template-caching (https://github.com/sunnysideup/silverstripe-simple-template-caching): chache anything with minimal effort
+ - sunnysideup/config_manager (https://github.com/sunnysideup/silverstripe-config_manager): review all your configuration options in one go
+ - sunnysideup/test-email (https://github.com/sunnysideup/silverstripe-test-email): is email working?  Why not test it?
+ - sunnysideup/sanitise-class-name (https://github.com/sunnysideup/silverstripe-sanitise-class-name): turn fully qualified class names into short one in a standard way - should be part of the Silverstripe Core.
 
 #### also consider
 
@@ -74,12 +74,12 @@ The following repository is highly recommended as a global composer install. It 
  - [sunnysideup/dataobject-generator](https://github.com/sunnysideup/silverstripe-dataobject-generator): generate dataobjects and pages in a standardised way, helping you to define rich, thoughtful models.
 
 ## testing and debug
-- sunnysideup/vardump: a `print_r` / `vardump` version specifically for Silverstripe
-- sunnysideup/templateoverview: a poorman's testing suite
+- sunnysideup/vardump (https://github.com/sunnysideup/silverstripe-vardump): a `print_r` / `vardump` version specifically for Silverstripe
+- sunnysideup/templateoverview (https://github.com/sunnysideup/silverstripe-templateoverview): a poorman's testing suite
 
 ## (big) data and content management
- - sunnysideup/assets_overview: great if you have 100s of assets and you want to organise them
- - sunnysideup/migration-task: lots of migration tricks in one basket. Moving tables, removing obsolete, fields, etc...
+ - sunnysideup/assets_overview (https://github.com/sunnysideup/silverstripe-assets_overview): great if you have 100s of assets and you want to organise them
+ - sunnysideup/migration-task (https://github.com/sunnysideup/silverstripe-migration-task): lots of migration tricks in one basket. Moving tables, removing obsolete, fields, etc...
  - [silverstripe/recipe-collaboration](https://github.com/silverstripe/recipe-collaboration): content authoring tools
 
 #### also consider
@@ -87,8 +87,8 @@ The following repository is highly recommended as a global composer install. It 
 
 ## security
 
- - sunnysideup/database-share-clean-up: remove personal data from a Silverstripe Database, to enhance security
-- undefinedoffset/silverstripe-nocaptcha: recaptcha, of course
+ - sunnysideup/database-share-clean-up (https://github.com/sunnysideup/silverstripe-database-share-clean-up): remove personal data from a Silverstripe Database, to enhance security
+ - undefinedoffset/silverstripe-nocaptcha (https://github.com/UndefinedOffset/silverstripe-nocaptcha): recaptcha, of course
 
 #### also consider
 
@@ -97,18 +97,17 @@ The following repository is highly recommended as a global composer install. It 
 
 ## better SEO and Analytics
 
- - sunnysideup/metatags: all the latest metatags ready to go
- - wilr/silverstripe-googlesitemaps: google sitemaps, not sure if Google cares, but why not?
- - sunnysideup/googleanalyticsbasics: simple and efficient Google Analytics
+ - sunnysideup/metatags (https://github.com/sunnysideup/silverstripe-metatags): all the latest metatags ready to go
+ - wilr/silverstripe-googlesitemaps (https://github.com/wilr/silverstripe-googlesitemaps): google sitemaps, not sure if Google cares, but why not?
+ - sunnysideup/googleanalyticsbasics (https://github.com/sunnysideup/silverstripe-googleanalyticsbasics): simple and efficient Google Analytics
 
 #### also consider:
- - axllent/silverstripe-meta-editor
- -
+ - axllent/silverstripe-meta-editor (https://github.com/axllent/silverstripe-meta-editor)
 
 ## search options (not included, but recommended)
 
-- sunnysideup/search_simple_smart: a sophisticated search module that can be further enhanced with the use of SolR or another search engine.
-- sunnysideup/fulltext-search-engine-simple: super simple search engine that allows for relevance sorting
+- sunnysideup/search_simple_smart (https://github.com/sunnysideup/silverstripe-search_simple_smart): a sophisticated search module that can be further enhanced with the use of SolR or another search engine.
+- sunnysideup/fulltext-search-engine-simple (https://github.com/sunnysideup/silverstripe-fulltext-search-engine-simple): super simple search engine that allows for relevance sorting
 
 
 ## looking for more modules?
@@ -126,26 +125,26 @@ please visit [ssmods.com](https://ssmods.com).
 ## even more good stuff (not included)
  a couple of ideas from: https://github.com/TheBnl/silverstripe-boilerplate/
 
- - silverstripe/html5:
- - silverstripe/redirectedurls:
- - dnadesign/silverstripe-elemental-userforms:
- - dnadesign/silverstripe-elemental-virtual:
- - symbiote/silverstripe-addressable:
- - bramdeleeuw/silverstripe-schema:
- - bramdeleeuw/cookieconsent:
- - jonom/focuspoint:
- - jonom/silverstripe-share-care:
- - jonom/silverstripe-text-target-length:
- - colymba/gridfield-bulk-editing-tools:
- - tractorcow/silverstripe-opengraph:
- - axllent/silverstripe-scaled-uploads:
- - axllent/silverstripe-image-optimiser:
- - xddesigners/silverstripe-dropzonefield:
- - xddesigners/page-content-block:
- - swisnl/geocoder-php-nationaal-georegister-provider:
- - guzzlehttp/guzzle:
- - php-http/guzzle6-adapter:
- - php-http/message:
+ - silverstripe/html5 (https://github.com/silverstripe/silverstripe-html5):
+ - silverstripe/redirectedurls (https://github.com/silverstripe/silverstripe-redirectedurls):
+ - dnadesign/silverstripe-elemental-userforms (https://github.com/dnadesign/silverstripe-elemental-userforms):
+ - dnadesign/silverstripe-elemental-virtual (https://github.com/dnadesign/silverstripe-elemental-virtual):
+ - symbiote/silverstripe-addressable (https://github.com/symbiote/silverstripe-addressable):
+ - bramdeleeuw/silverstripe-schema (https://addons.silverstripe.org/add-ons/bramdeleeuw/silverstripe-schema):
+ - bramdeleeuw/cookieconsent (https://packagist.org/packages/bramdeleeuw/cookieconsent):
+ - jonom/focuspoint (https://github.com/jonom/silverstripe-focuspoint):
+ - jonom/silverstripe-share-care (https://github.com/jonom/silverstripe-share-care):
+ - jonom/silverstripe-text-target-length (https://github.com/jonom/silverstripe-text-target-length):
+ - colymba/gridfield-bulk-editing-tools (https://github.com/colymba/GridFieldBulkEditingTools):
+ - tractorcow/silverstripe-opengraph (https://github.com/tractorcow/silverstripe-opengraph):
+ - axllent/silverstripe-scaled-uploads (https://github.com/axllent/silverstripe-scaled-uploads):
+ - axllent/silverstripe-image-optimiser (https://github.com/axllent/silverstripe-image-optimiser):
+ - xddesigners/silverstripe-dropzonefield (https://github.com/xddesigners/silverstripe-dropzonefield):
+ - xddesigners/page-content-block (https://addons.silverstripe.org/add-ons/xddesigners/page-content-block):
+ - swisnl/geocoder-php-nationaal-georegister-provider (https://github.com/swisnl/geocoder-php-nationaal-georegister-provider):
+ - guzzlehttp/guzzle (https://packagist.org/packages/guzzlehttp/guzzle):
+ - php-http/guzzle6-adapter (https://github.com/php-http/guzzle6-adapter):
+ - php-http/message (https://github.com/php-http/message):
 
 some ideas from https://github.com/silverstripe/bambusa-installer/:
 
