@@ -25,7 +25,6 @@
         "sunnysideup/cms-niceties": "dev-master",
         "bummzack/sortablefile": "^2.1",
         "wilr/silverstripe-googlesitemaps": "^2.1",
-        "jonom/focuspoint": "^4.0",
         "sunnysideup/cms_edit_link_field": "dev-master",
         "sunnysideup/metatags": "dev-master",
         "sunnysideup/googleanalyticsbasics": "dev-master",
@@ -50,6 +49,7 @@
         "sunnysideup/vardump": "dev-master"
     },
     "suggest": {
+        "jonom/focuspoint": "pinpoint images to specific focus point",
         "silverstripe/lumberjack": "great for large site trees",
         "sunnysideup/test-email": "is email working?  Why not test it?"
     },
