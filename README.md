@@ -20,7 +20,6 @@ Here are a couple of modules we have included (or recommend). These are mainly S
  - sunnysideup/avoid-child-deletion: avoid accidentally deleting key pages like the home page
  - sunnysideup/sortable_list_view: sort your pages in `list view`
  - sunnysideup/yes-no-any-filter: improved search filters
- - sunnysideup/fulltext-search-engine-simple: super simple search engine that allows for relevance sorting
  - sunnysideup/collect-elemental-content: collect all the content from elemental in one field, for easy searching
  - sunnysideup/dataobjectsorter: enhanced sorting and editing modes
 
@@ -92,3 +91,4 @@ The following repository is highly recommended as a global composer install. It 
 ## search options (not included, but recommended)
 
 - sunnysideup/search_simple_smart: a sophisticated search module that can be further enhanced with the use of SolR or another search engine.
+- sunnysideup/fulltext-search-engine-simple: super simple search engine that allows for relevance sorting
