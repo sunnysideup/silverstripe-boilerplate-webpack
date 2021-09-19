@@ -19,7 +19,6 @@
         "sunnysideup/share_this_simple": "dev-master",
         "sunnysideup/internal-external-link": "dev-master",
         "sunnysideup/elemental-switch-tabs": "dev-master",
-        "sunnysideup/typography": "dev-master",
         "a2nt/silverstripe-treemultiselect-sortable-field": "dev-main",
         "silverstripe/userforms": "^5.8",
         "undefinedoffset/silverstripe-nocaptcha": "^2.1",
@@ -30,7 +29,13 @@
         "sunnysideup/cms_edit_link_field": "dev-master",
         "sunnysideup/metatags": "dev-master",
         "sunnysideup/googleanalyticsbasics": "dev-master",
-        "sunnysideup/simple-template-caching": "dev-master"
+        "sunnysideup/simple-template-caching": "dev-master",
+        "sunnysideup/cleaner_tinymce_config": "dev-master",
+        "sunnysideup/yes-no-any-filter": "dev-master",
+        "sunnysideup/fulltext-search-engine-simple": "dev-master",
+        "sunnysideup/collect-elemental-content": "dev-master",
+        "sunnysideup/site-wide-search": "dev-master",
+        "sunnysideup/sanitise-class-name": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
@@ -39,7 +44,13 @@
         "sunnysideup/prettyphoto": "dev-master",
         "sunnysideup/typography": "dev-master",
         "sunnysideup/sswebpack_engine_only": "dev-master",
-        "sunnysideup/config_manager": "dev-master"
+        "sunnysideup/config_manager": "dev-master",
+        "sunnysideup/migration-task": "dev-master",
+        "sunnysideup/vardump": "dev-master"
+    },
+    "suggest": {
+        "silverstripe/lumberjack": "great for large site trees",
+        "sunnysideup/test-email": "is email working?  Why not test it?"
     },
     "extra": {
         "resources-dir": "_resources",
@@ -73,5 +84,6 @@
             "app/src/Page.php",
             "app/src/PageController.php"
         ]
-    }
+    },
+    "sort-packages": true
 }
