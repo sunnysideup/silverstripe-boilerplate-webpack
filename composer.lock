@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baa777fc2b4bf34200729cdbfebed448",
+    "content-hash": "84b0fa0f2d15fe9d2c1717bfe121da2a",
     "packages": [
         {
             "name": "a2nt/silverstripe-treemultiselect-sortable-field",
@@ -3066,6 +3066,52 @@
             "time": "2020-12-06T22:00:29+00:00"
         },
         {
+            "name": "sunnysideup/cleaner_tinymce_config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config.git",
+                "reference": "578d35105570fffab0e22c041cc2bc586d677fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-cleaner_tinymce_config/zipball/578d35105570fffab0e22c041cc2bc586d677fc2",
+                "reference": "578d35105570fffab0e22c041cc2bc586d677fc2",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Provides an easier and cleaner way to configure your TinyMCE manager. By default, you will also be provided with a simplified TinyMCE editor.",
+            "keywords": [
+                "Tiny MCE",
+                "config",
+                "content",
+                "content editor",
+                "editor",
+                "form field",
+                "html editor"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config/tree/master"
+            },
+            "time": "2021-09-14T01:15:46+00:00"
+        },
+        {
             "name": "sunnysideup/cms-niceties",
             "version": "dev-master",
             "source": {
@@ -3182,6 +3228,123 @@
                 "source": "https://github.com/sunnysideup/silverstripe-cms_edit_link_field/tree/master"
             },
             "time": "2021-08-23T04:11:52+00:00"
+        },
+        {
+            "name": "sunnysideup/collect-elemental-content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-collect-elemental-content.git",
+                "reference": "9b780f3a3ce41187116ffbfae3c1c165f2727944"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-collect-elemental-content/zipball/9b780f3a3ce41187116ffbfae3c1c165f2727944",
+                "reference": "9b780f3a3ce41187116ffbfae3c1c165f2727944",
+                "shasum": ""
+            },
+            "require": {
+                "dnadesign/silverstripe-elemental": "^4",
+                "silverstripe/framework": "^4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\CollectElementalContent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Collect all the content from the elemental blocks for easy searching.",
+            "keywords": [
+                "Silverstripe-CMS",
+                "blocks",
+                "cms",
+                "content",
+                "elemental",
+                "full-text",
+                "fulltext",
+                "link",
+                "mysql",
+                "search",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-collect-elemental-content/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-collect-elemental-content/tree/master"
+            },
+            "time": "2021-09-09T10:49:15+00:00"
+        },
+        {
+            "name": "sunnysideup/dataobjectsorter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-dataobjectsorter.git",
+                "reference": "3bd957d26e31b8e7ddd231d3721a5757a8488d27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-dataobjectsorter/zipball/3bd957d26e31b8e7ddd231d3721a5757a8488d27",
+                "reference": "3bd957d26e31b8e7ddd231d3721a5757a8488d27",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.6",
+                "silverstripe/recipe-cms": "^4.2"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\DataobjectSorter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Silverstripe module with crud functionality: edit one field for one record, edit one record, edit one field for all records AND sort records... ",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "crud",
+                "dataobjectsorter",
+                "edit one field",
+                "edit one record",
+                "list of fields",
+                "quick edit",
+                "silverstripe",
+                "sort",
+                "sorting"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-dataobjectsorter/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-dataobjectsorter/tree/master"
+            },
+            "time": "2021-09-11T10:42:05+00:00"
         },
         {
             "name": "sunnysideup/elemental-edit-me-button",
@@ -3391,6 +3554,59 @@
                 "source": "https://github.com/sunnysideup/silverstripe-error-log-made-easy/tree/1.0.1"
             },
             "time": "2021-03-31T00:57:58+00:00"
+        },
+        {
+            "name": "sunnysideup/fulltext-search-engine-simple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-fulltext-search-engine-simple.git",
+                "reference": "19048c1a67fdc00bdd4ce1d351abade4c751405d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-fulltext-search-engine-simple/zipball/19048c1a67fdc00bdd4ce1d351abade4c751405d",
+                "reference": "19048c1a67fdc00bdd4ce1d351abade4c751405d",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\FulltextSearchEngineSimple\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Basic fulltext search similar to the Silverstripe Core FullText Search Engine but standalone API.",
+            "keywords": [
+                "Match",
+                "Silverstripe-CMS",
+                "cms",
+                "full-text",
+                "fulltext",
+                "link",
+                "mysql",
+                "search",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-fulltext-search-engine-simple/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-fulltext-search-engine-simple/tree/1.0.0"
+            },
+            "time": "2021-09-10T07:41:40+00:00"
         },
         {
             "name": "sunnysideup/googleanalyticsbasics",
@@ -3682,6 +3898,58 @@
             "time": "2021-09-05T05:37:39+00:00"
         },
         {
+            "name": "sunnysideup/sanitise-class-name",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-sanitise-class-name.git",
+                "reference": "f03fd404b6124071947c3c15537e8dff47e688b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-sanitise-class-name/zipball/f03fd404b6124071947c3c15537e8dff47e688b2",
+                "reference": "f03fd404b6124071947c3c15537e8dff47e688b2",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "4.*"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\SanitiseClassName\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Sanitises a classname to hyphens and back to backslashes",
+            "keywords": [
+                "ClassInfo",
+                "Silverstripe-CMS",
+                "backslashes",
+                "classname",
+                "cms",
+                "convert",
+                "sanitise",
+                "sanitize"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-sanitise-class-name/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-sanitise-class-name/tree/0.1.2"
+            },
+            "time": "2021-04-11T09:50:46+00:00"
+        },
+        {
             "name": "sunnysideup/share_this_simple",
             "version": "dev-master",
             "source": {
@@ -3855,32 +4123,28 @@
             "time": "2021-07-18T20:44:56+00:00"
         },
         {
-            "name": "sunnysideup/typography",
+            "name": "sunnysideup/site-wide-search",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sunnysideup/silverstripe-typography.git",
-                "reference": "82d05692eea3d69c57f332224fbbc16e00a15cb2"
+                "url": "https://github.com/sunnysideup/silverstripe-site-wide-search.git",
+                "reference": "82d08391f5337a0f9b8c5df3d7c4d7bc9e6b182b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-typography/zipball/82d05692eea3d69c57f332224fbbc16e00a15cb2",
-                "reference": "82d05692eea3d69c57f332224fbbc16e00a15cb2",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-wide-search/zipball/82d08391f5337a0f9b8c5df3d7c4d7bc9e6b182b",
+                "reference": "82d08391f5337a0f9b8c5df3d7c4d7bc9e6b182b",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": "~4"
+                "silverstripe/recipe-core": "~4@stable",
+                "sunnysideup/cms_edit_link_field": "*"
             },
             "default-branch": true,
             "type": "silverstripe-vendormodule",
-            "extra": {
-                "expose": [
-                    "images"
-                ]
-            },
             "autoload": {
                 "psr-4": {
-                    "Sunnysideup\\Typography\\": "src/"
+                    "Sunnysideup\\SiteWideSearch\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3894,24 +4158,21 @@
                     "role": "lead developer"
                 }
             ],
-            "description": "Add a typography test page to your silverstripe website / application.",
+            "description": "Search your entire silverstripe site!",
             "keywords": [
                 "Silverstripe-CMS",
                 "cms",
-                "developer tool",
-                "font styling",
-                "fonts",
-                "front-end design",
-                "html editing",
+                "dataobjects",
+                "find",
+                "search",
                 "silverstripe",
-                "tinymce",
-                "typography"
+                "site wide"
             ],
             "support": {
-                "issues": "https://github.com/sunnysideup/silverstripe-typography/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-typography/tree/8.1.3"
+                "issues": "https://github.com/sunnysideup/silverstripe-site-wide-search/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-site-wide-search/tree/master"
             },
-            "time": "2021-04-11T09:51:33+00:00"
+            "time": "2021-08-23T03:00:47+00:00"
         },
         {
             "name": "sunnysideup/webpack_requirements_backend",
@@ -3974,6 +4235,61 @@
                 "source": "https://github.com/sunnysideup/silverstripe-webpack_requirements_backend/tree/6.4.1"
             },
             "time": "2021-09-17T09:47:53+00:00"
+        },
+        {
+            "name": "sunnysideup/yes-no-any-filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-yes-no-any-filter.git",
+                "reference": "77acef5fd734f44e08bb27bd7cb43fcd2ec467e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-yes-no-any-filter/zipball/77acef5fd734f44e08bb27bd7cb43fcd2ec467e7",
+                "reference": "77acef5fd734f44e08bb27bd7cb43fcd2ec467e7",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-core": "^4.0"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\YesNoAnyFilter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Fix for broken boolean search in Silverstripe ORM",
+            "keywords": [
+                "Colourfull",
+                "Silverstripe-CMS",
+                "Yes Or No",
+                "any",
+                "boolean",
+                "cms",
+                "scaffoldSearchField",
+                "scaffoldSearchFields",
+                "search",
+                "searchable_fields",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-yes-no-any-filter/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-yes-no-any-filter/tree/master"
+            },
+            "time": "2021-07-11T06:10:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5960,16 +6276,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0"
+                "reference": "30f38bffc6f24293dadd1823936372dfa9e86e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0",
-                "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/30f38bffc6f24293dadd1823936372dfa9e86e2f",
+                "reference": "30f38bffc6f24293dadd1823936372dfa9e86e2f",
                 "shasum": ""
             },
             "require": {
@@ -5977,7 +6293,8 @@
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
-                "ext-tokenizer": "*"
+                "ext-tokenizer": "*",
+                "psalm/phar": "^4.8"
             },
             "type": "library",
             "extra": {
@@ -6003,9 +6320,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.4.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.5.0"
             },
-            "time": "2020-09-17T18:55:26+00:00"
+            "time": "2021-09-17T15:28:14+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -7164,6 +7481,113 @@
             "time": "2021-04-03T22:32:20+00:00"
         },
         {
+            "name": "sunnysideup/flush",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-flush.git",
+                "reference": "2c7f2149ac34ac1ef014db13e8def7543d6ce77f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-flush/zipball/2c7f2149ac34ac1ef014db13e8def7543d6ce77f",
+                "reference": "2c7f2149ac34ac1ef014db13e8def7543d6ce77f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\Flush\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "DB::alteration_message on steroids.",
+            "keywords": [
+                "Silverstripe-CMS",
+                "alteration_message",
+                "cms",
+                "command line",
+                "db",
+                "flush",
+                "output",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-flush/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-flush/tree/master"
+            },
+            "time": "2021-09-19T06:57:44+00:00"
+        },
+        {
+            "name": "sunnysideup/migration-task",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-migration-task.git",
+                "reference": "950bc75b1954f17113955eb10faabd6c2ee987b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-migration-task/zipball/950bc75b1954f17113955eb10faabd6c2ee987b8",
+                "reference": "950bc75b1954f17113955eb10faabd6c2ee987b8",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-core": "^4.0",
+                "sunnysideup/flush": "dev-master"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\MigrateData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Helps developers upgrade database data from one version to the next where the structure is incompatible",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "data",
+                "db tools",
+                "dev-tools",
+                "elemental upgrade",
+                "migration",
+                "migration-task",
+                "silverstripe",
+                "upgrade"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-migration-task/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-migration-task/tree/master"
+            },
+            "time": "2021-09-14T08:33:08+00:00"
+        },
+        {
             "name": "sunnysideup/prettyphoto",
             "version": "dev-master",
             "source": {
@@ -7400,6 +7824,117 @@
             "time": "2021-09-11T10:41:03+00:00"
         },
         {
+            "name": "sunnysideup/typography",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-typography.git",
+                "reference": "82d05692eea3d69c57f332224fbbc16e00a15cb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-typography/zipball/82d05692eea3d69c57f332224fbbc16e00a15cb2",
+                "reference": "82d05692eea3d69c57f332224fbbc16e00a15cb2",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "images"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\Typography\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Add a typography test page to your silverstripe website / application.",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "developer tool",
+                "font styling",
+                "fonts",
+                "front-end design",
+                "html editing",
+                "silverstripe",
+                "tinymce",
+                "typography"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-typography/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-typography/tree/8.1.3"
+            },
+            "time": "2021-04-11T09:51:33+00:00"
+        },
+        {
+            "name": "sunnysideup/vardump",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-vardump.git",
+                "reference": "7d0886f17f5c03b8533d1cec6763ca2e8e14f1e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-vardump/zipball/7d0886f17f5c03b8533d1cec6763ca2e8e14f1e0",
+                "reference": "7d0886f17f5c03b8533d1cec6763ca2e8e14f1e0",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-core": "~4.4"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\Vardump\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Dev Module for intelligent Debugging",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cms",
+                "debug",
+                "debugging",
+                "output",
+                "print_r",
+                "silverstripe",
+                "var_dump"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-vardump/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-vardump/tree/master"
+            },
+            "time": "2021-09-11T10:40:20+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.10.0",
             "source": {
@@ -7470,17 +8005,26 @@
         "sunnysideup/share_this_simple": 20,
         "sunnysideup/internal-external-link": 20,
         "sunnysideup/elemental-switch-tabs": 20,
-        "sunnysideup/typography": 20,
         "a2nt/silverstripe-treemultiselect-sortable-field": 20,
         "sunnysideup/cms-niceties": 20,
         "sunnysideup/cms_edit_link_field": 20,
         "sunnysideup/metatags": 20,
         "sunnysideup/googleanalyticsbasics": 20,
         "sunnysideup/simple-template-caching": 20,
+        "sunnysideup/cleaner_tinymce_config": 20,
+        "sunnysideup/yes-no-any-filter": 20,
+        "sunnysideup/fulltext-search-engine-simple": 20,
+        "sunnysideup/collect-elemental-content": 20,
+        "sunnysideup/site-wide-search": 20,
+        "sunnysideup/sanitise-class-name": 20,
+        "sunnysideup/dataobjectsorter": 20,
         "sunnysideup/templateoverview": 20,
         "sunnysideup/prettyphoto": 20,
+        "sunnysideup/typography": 20,
         "sunnysideup/sswebpack_engine_only": 20,
-        "sunnysideup/config_manager": 20
+        "sunnysideup/config_manager": 20,
+        "sunnysideup/migration-task": 20,
+        "sunnysideup/vardump": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
