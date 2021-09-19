@@ -92,3 +92,8 @@ The following repository is highly recommended as a global composer install. It 
 
 - sunnysideup/search_simple_smart: a sophisticated search module that can be further enhanced with the use of SolR or another search engine.
 - sunnysideup/fulltext-search-engine-simple: super simple search engine that allows for relevance sorting
+
+
+## looking for more modules?
+
+please visit [ssmods.com](https://ssmods.com).
