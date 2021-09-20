@@ -6,7 +6,7 @@ Here are a couple of modules we have included (or recommend). These are mainly S
 
  - dnadesign/silverstripe-elemental: making pages with elemental makes them way more flexible
 
-For more elemental modules, please visit: [https://ssmods.com/#~(cfi~(Requires~(~(vtm~'elemental~ivl~'elemental)))~csr~(sdi~'desc~sct~'Created_U))](https://ssmods.com/#~(cfi~(Requires~(~(vtm~'elemental~ivl~'elemental)))~csr~(sdi~'desc~sct~'Created_U)))
+For more elemental modules, please visit: [https://ssmods.com/requires-elemental](https://ssmods.com/#~(cfi~(Requires~(~(vtm~'elemental~ivl~'elemental)))~csr~(sdi~'desc~sct~'Created_U)))
 
 ## better CMS experience
 
