@@ -29,18 +29,18 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
 
 ##### also consider
 
- - symbiote/silverstripe-gridfieldextensions (https://github.com/symbiote/silverstripe-gridfieldextensions): even better grid fields
- - jonom/silverstripe-betternavigator (https://github.com/jonom/silverstripe-betternavigator): awesome addition to bring back-end info to front-end
- - silverstripe-youtube-database-field (https://github.com/sunnysideup/silverstripe-youtube-database-field): youtube videos field made easy
+ - [symbiote/silverstripe-gridfieldextensions](https://github.com/symbiote/silverstripe-gridfieldextensions): even better grid fields
+ - [jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator): awesome addition to bring back-end info to front-end
+ - [silverstripe-youtube-database-field](https://github.com/sunnysideup/silverstripe-youtube-database-field): youtube videos field made easy
  - [sunnysideup/vimeoembed](https://github.com/sunnysideup/silverstripe-vimeoembed): vimeo made easy
  - [silverstripe/lumberjack](https://github.com/silverstripe/silverstripe-lumberjack): a must have for sites with (too) many pages
 
 ## front-end and loading time enhancements
 
- - sunnysideup/typography (https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
- - sunnysideup/phone_field (https://github.com/sunnysideup/silverstripe-phone_field): make your phone links clickable links.
- - silverstripe/userforms (https://github.com/silverstripe/silverstripe-userforms): an old favourite
- - sunnysideup/typography (https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
+ - [sunnysideup/typography](https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
+ - [sunnysideup/phone_field](https://github.com/sunnysideup/silverstripe-phone_field): make your phone links clickable links.
+ - [silverstripe/userforms](https://github.com/silverstripe/silverstripe-userforms): an old favourite
+ - [sunnysideup/typography](https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
  - [sunnysideup/object-cacher](https://github.com/sunnysideup/silverstripe-object-cacher/): cache objects
 
 
