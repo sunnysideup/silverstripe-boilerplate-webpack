@@ -10,7 +10,7 @@ For more elemental modules, please visit: [https://ssmods.com/#~(cfi~(Requires~(
 
 ## better CMS experience
 
- - undefinedoffset/sortablegridfield (https://github.com/UndefinedOffset/SortableGridField): sorting lists is a common requirement
+ - [undefinedoffset/sortablegridfield](https://github.com/UndefinedOffset/SortableGridField): sorting lists is a common requirement
  - bummzack/sortablefile (https://github.com/bummzack/sortablefile): allow files to be sorted
  - sunnysideup/email_address_database_field (https://github.com/sunnysideup/silverstripe-email_address_database_field): better user-experience for email fields
  - sunnysideup/error-log-made-easy (https://github.com/sunnysideup/silverstripe-error-log-made-easy): easy logging of errors
