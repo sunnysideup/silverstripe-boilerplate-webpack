@@ -11,20 +11,20 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
 ## better CMS experience
 
  - [undefinedoffset/sortablegridfield](https://github.com/UndefinedOffset/SortableGridField): sorting lists is a common requirement
- - bummzack/sortablefile (https://github.com/bummzack/sortablefile): allow files to be sorted
- - sunnysideup/email_address_database_field (https://github.com/sunnysideup/silverstripe-email_address_database_field): better user-experience for email fields
- - sunnysideup/error-log-made-easy (https://github.com/sunnysideup/silverstripe-error-log-made-easy): easy logging of errors
- - sunnysideup/elemental-edit-me-button (https://github.com/sunnysideup/silverstripe-elemental-edit-me-button): we love the workflow of editing elemental blocks directly from the front-end
- - sunnysideup/elemental-switch-tabs (https://github.com/sunnysideup/silverstripe-elemental-switch-tabs): make it easier to switch tabs in the Elemental Editor
- - sunnysideup/internal-external-link (https://github.com/sunnysideup/silverstripe-internal-external-link): add a link that is an internal link, external link, file, phone number or email
- - sunnysideup/cms-niceties (https://github.com/sunnysideup/silverstripe-cms-niceties): several enhancements in the CMS
- - sunnysideup/cms_edit_link_field (https://github.com/sunnysideup/silverstripe-cms_edit_link_field): link through to any object in the CMS
- - sunnysideup/cleaner_tinymce_config (https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config): simple html editor
- - sunnysideup/avoid-child-deletion (https://github.com/sunnysideup/silverstripe-avoid-child-deletion): avoid accidentally deleting key pages like the home page
- - sunnysideup/sortable_list_view (https://github.com/sunnysideup/silverstripe-sortable_list_view): sort your pages in `list view`
- - sunnysideup/yes-no-any-filter (https://github.com/sunnysideup/silverstripe-yes-no-any-filter): improved search filters
- - sunnysideup/https://github.com/sunnysideup/silverstripe-collect-elemental-content): collect all the content from elemental in one field, for easy searching
- - sunnysideup/dataobjectsorter (https://github.com/sunnysideup/silverstripe-dataobjectsorter): enhanced sorting and editing modes
+ - [bummzack/sortablefile](https://github.com/bummzack/sortablefile): allow files to be sorted
+ - [sunnysideup/email_address_database_field](https://github.com/sunnysideup/silverstripe-email_address_database_field): better user-experience for email fields
+ - [sunnysideup/error-log-made-easy](https://github.com/sunnysideup/silverstripe-error-log-made-easy): easy logging of errors
+ - [sunnysideup/elemental-edit-me-button](https://github.com/sunnysideup/silverstripe-elemental-edit-me-button): we love the workflow of editing elemental blocks directly from the front-end
+ - [sunnysideup/elemental-switch-tabs](https://github.com/sunnysideup/silverstripe-elemental-switch-tabs): make it easier to switch tabs in the Elemental Editor
+ - [sunnysideup/internal-external-link](https://github.com/sunnysideup/silverstripe-internal-external-link): add a link that is an internal link, external link, file, phone number or email
+ - [sunnysideup/cms-niceties](https://github.com/sunnysideup/silverstripe-cms-niceties): several enhancements in the CMS
+ - [sunnysideup/cms_edit_link_field](https://github.com/sunnysideup/silverstripe-cms_edit_link_field): link through to any object in the CMS
+ - [sunnysideup/cleaner_tinymce_config](https://github.com/sunnysideup/silverstripe-cleaner_tinymce_config): simple html editor
+ - [sunnysideup/avoid-child-deletion](https://github.com/sunnysideup/silverstripe-avoid-child-deletion): avoid accidentally deleting key pages like the home page
+ - [sunnysideup/sortable_list_view](https://github.com/sunnysideup/silverstripe-sortable_list_view): sort your pages in `list view`
+ - [sunnysideup/yes-no-any-filter](https://github.com/sunnysideup/silverstripe-yes-no-any-filter): improved search filters
+ - [sunnysideup/silverstripe-collect-elemeatal-content](https://github.com/sunnysideup/silverstripe-collect-elemental-content): collect all the content from elemental in one field, for easy searching
+ - [sunnysideup/dataobjectsorter](https://github.com/sunnysideup/silverstripe-dataobjectsorter): enhanced sorting and editing modes
 
 
 ##### also consider
