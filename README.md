@@ -148,7 +148,7 @@ please visit [ssmods.com](https://ssmods.com).
 
 some ideas from https://github.com/silverstripe/bambusa-installer/:
 
- "silverstripe/bambusa-theme": "dev-master",
+ - "silverstripe/bambusa-theme": "dev-master",
  "silverstripe/recipe-content-blocks": "^2.3",
  "silverstripe/crontask": "^2.1.2",
  "silverstripe/dynamodb": "^4.0.2",
