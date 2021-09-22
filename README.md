@@ -178,7 +178,7 @@ some ideas from https://github.com/silverstripe/bambusa-installer/:
 
 #### bootstrap
 
-axllent/silverstripe-bootstrap-forms
+[axllent/silverstripe-bootstrap-forms](https://github.com/axllent/silverstripe-bootstrap-forms)
 
 #### more ideas:
  - https://github.com/syntro-opensource/silverstripe-ssto
