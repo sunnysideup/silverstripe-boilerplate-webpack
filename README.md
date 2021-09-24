@@ -146,26 +146,27 @@ Nothing included here.
 
 ##### a couple of ideas from: https://github.com/TheBnl/silverstripe-boilerplate/
 
- - [silverstripe/html5](https://github.com/silverstripe/silverstripe-html5):
- - [silverstripe/redirectedurls](https://github.com/silverstripe/silverstripe-redirectedurls):
- - [dnadesign/silverstripe-elemental-userforms](https://github.com/dnadesign/silverstripe-elemental-userforms):
- - [dnadesign/silverstripe-elemental-virtual](https://github.com/dnadesign/silverstripe-elemental-virtual):
- - [symbiote/silverstripe-addressable](https://github.com/symbiote/silverstripe-addressable):
- - [bramdeleeuw/silverstripe-schema](https://addons.silverstripe.org/add-ons/bramdeleeuw/silverstripe-schema):
- - [bramdeleeuw/cookieconsent](https://packagist.org/packages/bramdeleeuw/cookieconsent):
+ - [silverstripe/html5](https://github.com/silverstripe/silverstripe-html5):Further HTML 5 support for SilverStripe
+ - [silverstripe/redirectedurls](https://github.com/silverstripe/silverstripe-redirectedurls): SilverStripe module to let users to configure arbitrary redirections in the CMS
+ - [dnadesign/silverstripe-elemental-userforms](https://github.com/dnadesign/silverstripe-elemental-userforms):Adds a new element for usersforms
+ - [dnadesign/silverstripe-elemental-virtual](https://github.com/dnadesign/silverstripe-elemental-virtual): Allows Content Blocks to be reused between pages.
+ - [symbiote/silverstripe-addressable](https://github.com/symbiote/silverstripe-addressable): Adds configurable address fields to an object, and provides automatic geocoding.
+ - [bramdeleeuw/silverstripe-schema](https://addons.silverstripe.org/add-ons/bramdeleeuw/silverstripe-schema): Add schema to a Silverstripe page
+ - [bramdeleeuw/cookieconsent](https://github.com/TheBnl/silverstripe-cookie-consent): GDPR compliant cookie popup and consent checker
  - [jonom/focuspoint](https://github.com/jonom/silverstripe-focuspoint):- https://github.com/g4b0/silverstripe-htmlpurifier
- - [jonom/silverstripe-share-care](https://github.com/jonom/silverstripe-share-care):
- - [jonom/silverstripe-text-target-length](https://github.com/jonom/silverstripe-text-target-length):
- - [colymba/gridfield-bulk-editing-tools](https://github.com/colymba/GridFieldBulkEditingTools):
- - [tractorcow/silverstripe-opengraph](https://github.com/tractorcow/silverstripe-opengraph):
- - [axllent/silverstripe-scaled-uploads](https://github.com/axllent/silverstripe-scaled-uploads):
- - [axllent/silverstripe-image-optimiser](https://github.com/axllent/silverstripe-image-optimiser):
- - [xddesigners/silverstripe-dropzonefield](https://github.com/xddesigners/silverstripe-dropzonefield):
- - [xddesigners/page-content-block](https://addons.silverstripe.org/add-ons/xddesigners/page-content-block):
- - [swisnl/geocoder-php-nationaal-georegister-provider](https://github.com/swisnl/geocoder-php-nationaal-georegister-provider):
- - [guzzlehttp/guzzle](https://packagist.org/packages/guzzlehttp/guzzle):
- - [php-http/guzzle6-adapter](https://github.com/php-http/guzzle6-adapter):
- - [php-http/message](https://github.com/php-http/message):
+ - [jonom/silverstripe-share-care](https://github.com/jonom/silverstripe-share-care): Social media sharing previews and customisation for SilverStripe
+ - [jonom/silverstripe-text-target-length](https://github.com/jonom/silverstripe-text-target-length): Set character length recommendations on SilverStripe text form fields
+ - [colymba/gridfield-bulk-editing-tools](https://github.com/colymba/GridFieldBulkEditingTools): SilverStripe GridField Components set for bulk upload and bulk record edit, unlink & delete packageboom
+ - [tractorcow/silverstripe-opengraph](https://github.com/tractorcow/silverstripe-opengraph): Implementation of the Facebook Opengraph protocol for Silverstripe
+ - [axllent/silverstripe-scaled-uploads](https://github.com/axllent/silverstripe-scaled-uploads): Automatically scale down, auto-rotate & compress uploaded images in Silverstripe
+ - [axllent/silverstripe-image-optimiser](https://github.com/axllent/silverstripe-image-optimiser): Automaticly optimise all uploaded & resampled images in Silverstripe
+ - [xddesigners/silverstripe-dropzonefield](https://github.com/xddesigners/silverstripe-dropzonefield): DropzoneJS frond-end upload field for SilverStripe.
+ - [xddesigners/page-content-block](https://github.com/xddesigners/silverstripe-page-content-block): Adds a page content block to SilverStripe elemental editor
+ - [swisnl/geocoder-php-nationaal-georegister-provider](https://github.com/swisnl/geocoder-php-nationaal-georegister-provider): Nationaal Georegister provider for Geocoder PHP
+ - [guzzlehttp/guzzle](https://github.com/guzzle/guzzle): Guzzle, an extensible PHP HTTP client
+ - [php-http/guzzle6-adapter](https://github.com/php-http/guzzle6-adapter): Guzzle 6 HTTP adapter
+ - [php-http/message](https://github.com/php-http/message): About
+HTTP Message related tools
 
 ##### some ideas from https://github.com/silverstripe/bambusa-installer/:
 
