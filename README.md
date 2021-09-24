@@ -76,7 +76,7 @@ Nothing included here
  - [sunnysideup/test-email](https://github.com/sunnysideup/silverstripe-test-email): is email working?  Why not test it?
  - [sunnysideup/sanitise-class-name](https://github.com/sunnysideup/silverstripe-sanitise-class-name): turn fully qualified class names into short one in a standard way - should be part of the Silverstripe Core.
 
-#### also consider
+##### also consider
 
 The following repository is highly recommended as a global composer install. It simplifies a large number of Silverstripe actions with simple command line actions:
  - [sunnysideup/easy-coding-standards](https://github.com/sunnysideup/silverstripe-easy-coding-standards)
