@@ -93,7 +93,7 @@ The following repository is highly recommended as a global composer install. It 
  - [sunnysideup/migration-task](https://github.com/sunnysideup/silverstripe-migration-task): lots of migration tricks in one basket. Moving tables, removing obsolete, fields, etc...
  - [silverstripe/recipe-collaboration](https://github.com/silverstripe/recipe-collaboration): content authoring tools
 
-#### also consider
+##### also consider
  - [sunnysideup/table_filter_sort](https://github.com/sunnysideup/silverstripe-table_filter_sort): sophisticated sorting and filtering of lists - see ssmods.com for an example.
 
 ## security
@@ -101,7 +101,7 @@ The following repository is highly recommended as a global composer install. It 
  - [sunnysideup/database-share-clean-up](https://github.com/sunnysideup/silverstripe-database-share-clean-up): remove personal data from a Silverstripe Database, to enhance security
  - [undefinedoffset/silverstripe-nocaptcha](https://github.com/UndefinedOffset/silverstripe-nocaptcha): recaptcha, of course
 
-#### also consider
+##### also consider
 
  - [sunnysideup/permission_provider](https://github.com/sunnysideup/silverstripe-permission_provider): permissions for dummies.
  - [silverstripe/recipe-reporting-tool](https://github.com/silverstripe/recipe-reporting-tools): check all security aspects
@@ -169,21 +169,21 @@ Nothing included here.
 
 ##### some ideas from https://github.com/silverstripe/bambusa-installer/:
 
- - "silverstripe/recipe-content-blocks": "^2.3",
- - "silverstripe/crontask": "^2.1.2",
- - "silverstripe/dynamodb": "^4.0.2",
- - "dnadesign/silverstripe-elemental-userforms": "^3.0.0",
- - "jonom/silverstripe-betternavigator": "~5.0.1",
- - "silverstripe/sharedraftcontent": "^2.3",
- - "bringyourownideas/silverstripe-maintenance": "^2.2",
- - "bringyourownideas/silverstripe-composer-security-checker": "^2.0",
- - "bringyourownideas/silverstripe-composer-update-checker": "^2.0",
- - "heyday/silverstripe-menumanager": "~3.0.4",
- - "sminnee/tagmanager": "^1.0.0",
- - "sminnee/silverstripe-amplitude": "dev-master",
- - "sminnee/silverstripe-asknicely": "^1.0@dev",
- - "benmanu/silverstripe-simple-styleguide": "~2.0.5",
- - "silverstripe/login-forms": "^4.0@beta",
+ - [silverstripe/recipe-content-blocks](https://github.com/silverstripe/recipe-content-blocks): Add content blocks to your SilverStripe project
+ - [silverstripe/crontask](https://github.com/silverstripe/silverstripe-crontask): Easily setup tasks to be run by using cron expressions
+ - [silverstripe/dynamodb](https://github.com/silverstripe/silverstripe-dynamodb): This module enables storing SilverStripe sessions in DynamoDB
+ - [dnadesign/silverstripe-elemental-userforms](https://github.com/dnadesign/silverstripe-elemental-userforms): Adds a new element for usersforms
+ - [jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator): Front-end utility menu for SilverStripe websites
+ - [silverstripe/sharedraftcontent](https://github.com/silverstripe/silverstripe-sharedraftcontent): Share draft page content with non-CMS users
+ - [bringyourownideas/silverstripe-maintenance](https://github.com/bringyourownideas/silverstripe-maintenance): Helps with the day by day work to run a SilverStripe application or website
+ - [bringyourownideas/silverstripe-composer-security-checker](https://github.com/bringyourownideas/silverstripe-composer-security-checker): Provides information if your SilverStripe application uses dependencies with known vulnerabilities.
+ - [bringyourownideas/silverstripe-composer-update-checker](https://github.com/bringyourownideas/silverstripe-composer-update-checker): Checks if a composer package has an update available
+ - [heyday/silverstripe-menumanager](https://github.com/heyday/silverstripe-menumanager): The menu management module is for creating custom menu structures when the site tree hierarchy just won't do.
+ - [sminnee/tagmanager](https://github.com/sminnee/silverstripe-tagmanager): SilverStripe's server-side answer to Google/Adobe Tag Manager
+ - [sminnee/silverstripe-amplitude](https://github.com/sminnee/silverstripe-amplitude): Integration with https://amplitude.com via silverstripe-tagmanager
+ - [sminnee/silverstripe-asknicely](https://github.com/sminnee/silverstripe-asknicely): Adds an AskNicely NPS Web Survey to your site
+ - [benmanu/silverstripe-simple-styleguide](https://github.com/benmanu/silverstripe-simple-styleguide): Provides a restricted frontend controller for SilverStripe projects, useful for rendering template elements for frontend testing.
+ - [silverstripe/login-forms](https://github.com/silverstripe/silverstripe-login-forms): Login form templates
  - [silverstripe/raygun](https://github.com/silverstripe/silverstripe-raygun): Raygun.com integration for PHP
  - [silverstripe/blog](https://github.com/silverstripe/silverstripe-blog): Blog module for SilverStripe CMS
  - [dynamic/silverstripe-elemental-blog](https://github.com/dynamic/silverstripe-elemental-blog): Display a list of the most recent posts of a specific blog
