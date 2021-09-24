@@ -112,7 +112,7 @@ The following repository is highly recommended as a global composer install. It 
  - [wilr/silverstripe-googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps): google sitemaps, not sure if Google cares, but why not?
  - [sunnysideup/googleanalyticsbasics](https://github.com/sunnysideup/silverstripe-googleanalyticsbasics): simple and efficient Google Analytics
 
-#### also consider:
+##### also consider:
  - [axllent/silverstripe-meta-editor](https://github.com/axllent/silverstripe-meta-editor)
 
 ## search options (not included, but recommended)
