@@ -184,15 +184,15 @@ Nothing included here.
  - "sminnee/silverstripe-asknicely": "^1.0@dev",
  - "benmanu/silverstripe-simple-styleguide": "~2.0.5",
  - "silverstripe/login-forms": "^4.0@beta",
- - "silverstripe/raygun": "^3.1.0",
- - "silverstripe/blog": "^3.3",
- - "dynamic/silverstripe-elemental-blog": "~2.1.1",
- - "symbiote/silverstripe-advancedworkflow": "^5.2",
- - "silverstripe/theme-colorpicker": "^1",
- - "silverstripe/theme-fontpicker": "^1",
- - "tractorcow/silverstripe-fluent":  translations
- - "symfony/process": "^3.2",
- - [silverstripe/fulltextsearch][...]: Adds support for fulltext search engines like Sphinx and Solr to SilverStripe CMS.
+ - [silverstripe/raygun](https://github.com/silverstripe/silverstripe-raygun): Raygun.com integration for PHP
+ - [silverstripe/blog](https://github.com/silverstripe/silverstripe-blog): Blog module for SilverStripe CMS
+ - [dynamic/silverstripe-elemental-blog](https://github.com/dynamic/silverstripe-elemental-blog): Display a list of the most recent posts of a specific blog
+ - [symbiote/silverstripe-advancedworkflow](https://github.com/symbiote/silverstripe-advancedworkflow): A highly configurable step-based workflow module
+ - [silverstripe/theme-colorpicker](https://github.com/silverstripe/silverstripe-theme-colorpicker): Makes theme colours configurable through the CMS UI
+ - [silverstripe/theme-fontpicker](https://github.com/silverstripe/silverstripe-theme-fontpicker): Makes theme fonts configurable through the CMS UI
+ - [tractorcow/silverstripe-fluent](https://github.com/tractorcow-farm/silverstripe-fluent):  translations
+ - [symfony/process](https://github.com/symfony/process): The Process component executes commands in sub-processes
+ - [silverstripe/fulltextsearch](https://github.com/silverstripe/silverstripe-fulltextsearch): Adds support for fulltext search engines like Sphinx and Solr to SilverStripe CMS.
 
 
 #### more ideas:
