@@ -25,10 +25,11 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
  - [sunnysideup/yes-no-any-filter](https://github.com/sunnysideup/silverstripe-yes-no-any-filter): improved search filters
  - [sunnysideup/silverstripe-collect-elemeatal-content](https://github.com/sunnysideup/silverstripe-collect-elemental-content): collect all the content from elemental in one field, for easy searching
  - [sunnysideup/dataobjectsorter](https://github.com/sunnysideup/silverstripe-dataobjectsorter): enhanced sorting and editing modes
-
+ 
 
 ##### also consider
 
+ - https://github.com/g4b0/silverstripe-htmlpurifier
  - [symbiote/silverstripe-gridfieldextensions](https://github.com/symbiote/silverstripe-gridfieldextensions): even better grid fields
  - [jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator): awesome addition to bring back-end info to front-end
  - [silverstripe-youtube-database-field](https://github.com/sunnysideup/silverstripe-youtube-database-field): youtube videos field made easy
@@ -133,7 +134,7 @@ please visit [ssmods.com](https://ssmods.com).
  - [symbiote/silverstripe-addressable](https://github.com/symbiote/silverstripe-addressable):
  - [bramdeleeuw/silverstripe-schema](https://addons.silverstripe.org/add-ons/bramdeleeuw/silverstripe-schema):
  - [bramdeleeuw/cookieconsent](https://packagist.org/packages/bramdeleeuw/cookieconsent):
- - [jonom/focuspoint](https://github.com/jonom/silverstripe-focuspoint):
+ - [jonom/focuspoint](https://github.com/jonom/silverstripe-focuspoint):- https://github.com/g4b0/silverstripe-htmlpurifier
  - [jonom/silverstripe-share-care](https://github.com/jonom/silverstripe-share-care):
  - [jonom/silverstripe-text-target-length](https://github.com/jonom/silverstripe-text-target-length):
  - [colymba/gridfield-bulk-editing-tools](https://github.com/colymba/GridFieldBulkEditingTools):
