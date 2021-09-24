@@ -46,6 +46,7 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
 
 ## images
  - [sunnysideup/perfect_cms_images](https://github.com/sunnysideup/silverstripe-perfect_cms_images): faster images (use web-p, consider retina, etc... )
+ - https://github.com/bigfork/htmleditorsrcset
 
 ## also consider
  - [stevie-mayhew/silverstripe-svg](https://github.com/stevie-mayhew/silverstripe-svg): add support for SVGs
