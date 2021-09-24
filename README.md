@@ -36,7 +36,7 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
  - [sunnysideup/vimeoembed](https://github.com/sunnysideup/silverstripe-vimeoembed): vimeo made easy
  - [silverstripe/lumberjack](https://github.com/silverstripe/silverstripe-lumberjack): a must have for sites with (too) many pages
 
-## front-end and loading time enhancements
+## front-end 
 
  - [sunnysideup/typography](https://github.com/sunnysideup/silverstripe-typography): review your typography and get your CMS Editor in-sync with your editor file.
  - [sunnysideup/phone_field](https://github.com/sunnysideup/silverstripe-phone_field): make your phone links clickable links.
@@ -49,12 +49,21 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
  - [sunnysideup/perfect_cms_images](https://github.com/sunnysideup/silverstripe-perfect_cms_images): faster images (use web-p, consider retina, etc... )
  - https://github.com/bigfork/htmleditorsrcset
 
-## also consider
+##### also consider
  - [stevie-mayhew/silverstripe-svg](https://github.com/stevie-mayhew/silverstripe-svg): add support for SVGs
  - [jonom/focuspoint](https://github.com/jonom/silverstripe-focuspoint): allow a focus point to be set on images so that resizing works a charm
  - [axllent/silverstripe-scaled-uploads](https://github.com/axllent/silverstripe-scaled-uploads)
 
-### webpack ready to go
+## bootstrap
+
+Nothing included here
+
+##### also recommended
+
+[axllent/silverstripe-bootstrap-forms](https://github.com/axllent/silverstripe-bootstrap-forms)
+
+
+## webpack ready to go
 
  - [sunnysideup/webpack_requirements_backend](https://github.com/sunnysideup/silverstripe-webpack_requirements_backend): sets up links to webpack dist files.
  - [sunnysideup/sswebpack_engine_only](https://github.com/sunnysideup/silverstripe-sswebpack_engine_only): webpack 5, ready to go:
@@ -117,15 +126,25 @@ The following repository is highly recommended as a global composer install. It 
 please visit [ssmods.com](https://ssmods.com).
 
 
-## authoring tools (not included)
+## authoring tools
+
+Nothing included here.
+
+##### also consider
 - [silverstripe/recipe-authoring-tools](https://github.com/silverstripe/recipe-authoring-tools)
 
-## restful services (not included)
+## restful services
+
+Nothing included here.
+
+##### also consider
  - [silverstripe/recipe-service](https://github.com/silverstripe/recipe-services)
 
 
-## even more good stuff (not included)
- a couple of ideas from: https://github.com/TheBnl/silverstripe-boilerplate/
+## even more good stuff
+
+
+##### a couple of ideas from: https://github.com/TheBnl/silverstripe-boilerplate/
 
  - [silverstripe/html5](https://github.com/silverstripe/silverstripe-html5):
  - [silverstripe/redirectedurls](https://github.com/silverstripe/silverstripe-redirectedurls):
@@ -148,16 +167,14 @@ please visit [ssmods.com](https://ssmods.com).
  - [php-http/guzzle6-adapter](https://github.com/php-http/guzzle6-adapter):
  - [php-http/message](https://github.com/php-http/message):
 
-some ideas from https://github.com/silverstripe/bambusa-installer/:
+##### some ideas from https://github.com/silverstripe/bambusa-installer/:
 
- - "silverstripe/bambusa-theme": "dev-master",
  - "silverstripe/recipe-content-blocks": "^2.3",
  - "silverstripe/crontask": "^2.1.2",
  - "silverstripe/dynamodb": "^4.0.2",
  - "dnadesign/silverstripe-elemental-userforms": "^3.0.0",
  - "jonom/silverstripe-betternavigator": "~5.0.1",
  - "silverstripe/sharedraftcontent": "^2.3",
- - "jonom/focuspoint": "~3.1.1",
  - "bringyourownideas/silverstripe-maintenance": "^2.2",
  - "bringyourownideas/silverstripe-composer-security-checker": "^2.0",
  - "bringyourownideas/silverstripe-composer-update-checker": "^2.0",
@@ -171,16 +188,12 @@ some ideas from https://github.com/silverstripe/bambusa-installer/:
  - "silverstripe/blog": "^3.3",
  - "dynamic/silverstripe-elemental-blog": "~2.1.1",
  - "symbiote/silverstripe-advancedworkflow": "^5.2",
- - "wilr/silverstripe-googlesitemaps": "~2.1.5",
  - "silverstripe/theme-colorpicker": "^1",
  - "silverstripe/theme-fontpicker": "^1",
- - "tractorcow/silverstripe-fluent": "^4.2",
+ - "tractorcow/silverstripe-fluent":  translations
  - "symfony/process": "^3.2",
- - "silverstripe/fulltextsearch": "^3.5"
+ - (silverstripe/fulltextsearch][...]: Adds support for fulltext search engines like Sphinx and Solr to SilverStripe CMS.
 
-#### bootstrap
-
-[axllent/silverstripe-bootstrap-forms](https://github.com/axllent/silverstripe-bootstrap-forms)
 
 #### more ideas:
  - https://github.com/syntro-opensource/silverstripe-ssto
