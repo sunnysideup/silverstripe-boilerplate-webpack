@@ -73,7 +73,10 @@
         ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "preferred-install": {
+            "*": "source"
+        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
@@ -86,5 +89,6 @@
             "app/src/PageController.php"
         ]
     },
+    "prefer": "source",
     "sort-packages": true
 }
