@@ -192,7 +192,7 @@ Nothing included here.
  - "silverstripe/theme-fontpicker": "^1",
  - "tractorcow/silverstripe-fluent":  translations
  - "symfony/process": "^3.2",
- - (silverstripe/fulltextsearch][...]: Adds support for fulltext search engines like Sphinx and Solr to SilverStripe CMS.
+ - [silverstripe/fulltextsearch][...]: Adds support for fulltext search engines like Sphinx and Solr to SilverStripe CMS.
 
 
 #### more ideas:
