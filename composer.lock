@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dce8b9723bae7dd370b3cc212f52b840",
+    "content-hash": "3edeaf88dfad992b22b6f5ac63b6851f",
     "packages": [
         {
             "name": "a2nt/silverstripe-treemultiselect-sortable-field",
@@ -3491,6 +3491,59 @@
                 "source": "https://github.com/sunnysideup/silverstripe-error-log-made-easy/tree/1.0.1"
             },
             "time": "2021-03-31T00:57:58+00:00"
+        },
+        {
+            "name": "sunnysideup/flush-front-end",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-flush-front-end.git",
+                "reference": "71c718524f1badf16973c39a3ad3732414fabd83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-flush-front-end/zipball/71c718524f1badf16973c39a3ad3732414fabd83",
+                "reference": "71c718524f1badf16973c39a3ad3732414fabd83",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/recipe-core": "~4.4"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\FlushFrontEnd\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Clear the front-end from CLI",
+            "keywords": [
+                "Silverstripe-CMS",
+                "cache",
+                "caching",
+                "clear cache",
+                "cli",
+                "cms",
+                "flush",
+                "front-end",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-flush-front-end/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-flush-front-end/tree/master"
+            },
+            "time": "2021-10-04T05:47:33+00:00"
         },
         {
             "name": "sunnysideup/fulltext-search-engine-simple",
@@ -7955,6 +8008,7 @@
         "sunnysideup/site-wide-search": 20,
         "sunnysideup/sanitise-class-name": 20,
         "sunnysideup/dataobjectsorter": 20,
+        "sunnysideup/flush-front-end": 20,
         "sunnysideup/templateoverview": 20,
         "sunnysideup/prettyphoto": 20,
         "sunnysideup/typography": 20,

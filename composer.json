@@ -35,7 +35,8 @@
         "sunnysideup/collect-elemental-content": "dev-master",
         "sunnysideup/site-wide-search": "dev-master",
         "sunnysideup/sanitise-class-name": "dev-master",
-        "sunnysideup/dataobjectsorter": "dev-master"
+        "sunnysideup/dataobjectsorter": "dev-master",
+        "sunnysideup/flush-front-end": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
