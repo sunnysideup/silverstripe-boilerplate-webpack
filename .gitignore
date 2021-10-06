@@ -1,13 +1,15 @@
-/_ss_environment.php
-/db.sql
+# funny files
+_ss_environment.php
+db.sql
 .sass-cache
 .DS_Store
 npm-debug.log
-/.buildpath
-/.project
-/.settings
-/.env
+.buildpath
+.project
+.settings
+.env
 
+# excluded dirs
 /silverstripe-cache
 /vendor
 /public/assets/
@@ -16,4 +18,5 @@ npm-debug.log
 /public/cache/
 /public/offline/
 
+# excluded themes
 /themes/sswebpack_engine_only
