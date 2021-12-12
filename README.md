@@ -50,6 +50,7 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
  - https://github.com/bigfork/htmleditorsrcset
 
 ##### also consider
+
  - [stevie-mayhew/silverstripe-svg](https://github.com/stevie-mayhew/silverstripe-svg): add support for SVGs
  - [jonom/focuspoint](https://github.com/jonom/silverstripe-focuspoint): allow a focus point to be set on images so that resizing works a charm
  - [axllent/silverstripe-scaled-uploads](https://github.com/axllent/silverstripe-scaled-uploads)
@@ -75,6 +76,8 @@ Nothing included here
  - [sunnysideup/config_manager](https://github.com/sunnysideup/silverstripe-config_manager): review all your configuration options in one go
  - [sunnysideup/test-email](https://github.com/sunnysideup/silverstripe-test-email): is email working?  Why not test it?
  - [sunnysideup/sanitise-class-name](https://github.com/sunnysideup/silverstripe-sanitise-class-name): turn fully qualified class names into short one in a standard way - should be part of the Silverstripe Core.
+ - [sunnysideup/release](https://github.com/sunnysideup/silverstripe-release): an easy way to release your site. Basically a poormans' version of Silverstripe Cloud. 
+
 
 ##### also consider
 
