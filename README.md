@@ -29,7 +29,7 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
 
 ##### also consider
 
- - https://github.com/g4b0/silverstripe-htmlpurifier
+ - [g4b0/htmlpurifier](https://github.com/g4b0/silverstripe-htmlpurifier): Standards-Compliant HTML Filtering
  - [symbiote/silverstripe-gridfieldextensions](https://github.com/symbiote/silverstripe-gridfieldextensions): even better grid fields
  - [jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator): awesome addition to bring back-end info to front-end
  - [silverstripe-youtube-database-field](https://github.com/sunnysideup/silverstripe-youtube-database-field): youtube videos field made easy
