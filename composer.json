@@ -31,6 +31,7 @@
         "sunnysideup/simple-template-caching": "dev-master",
         "sunnysideup/cleaner_tinymce_config": "dev-master",
         "sunnysideup/yes-no-any-filter": "dev-master",
+        "sunnysideup/release": "dev-master",
         "sunnysideup/fulltext-search-engine-simple": "dev-master",
         "sunnysideup/collect-elemental-content": "dev-master",
         "sunnysideup/site-wide-search": "dev-master",
