@@ -1,7 +1,7 @@
 {
-    "name": "silverstripe/installer",
+    "name": "sunnysideup/boilerplate-webpack",
     "type": "silverstripe-recipe",
-    "description": "The SilverStripe Framework Installer",
+    "description": "Boilerplate for Silverstripe Site with Webpack",
     "require": {
         "php": ">=7.4.0",
         "silverstripe/recipe-plugin": "^1.2",
