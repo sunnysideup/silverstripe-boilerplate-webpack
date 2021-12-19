@@ -57,7 +57,6 @@
         "silverstripe/lumberjack": "great for large site trees",
         "sunnysideup/test-email": "is email working?  Why not test it?"
     },
-    "sort-packages": true,
     "extra": {
         "resources-dir": "_resources",
         "expose": [
