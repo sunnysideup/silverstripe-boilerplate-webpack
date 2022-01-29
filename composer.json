@@ -50,7 +50,8 @@
         "sunnysideup/sswebpack_engine_only": "dev-master",
         "sunnysideup/config_manager": "dev-master",
         "sunnysideup/migration-task": "dev-master",
-        "sunnysideup/vardump": "dev-master"
+        "sunnysideup/vardump": "dev-master",
+        "oddnoc/silverstripe-artefactcleaner": "dev-master"
     },
     "suggest": {
         "jonom/focuspoint": "pinpoint images to specific focus point",
