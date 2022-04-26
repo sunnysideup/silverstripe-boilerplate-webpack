@@ -1,3 +1,29 @@
+# example security headers
+
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy " \
+        upgrade-insecure-requests ; \
+        connect-src 'self' mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com tagmanager.google.com www.goog>
+        style-src 'self' data: mysite.com.nz www.mysite.com.nz  tagmanager.google.com fonts.googleapis.com 'unsafe-inline'; \
+        img-src 'self' data: mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com 'unsafe-inline' 'unsafe-eval>
+        object-src 'self' ; \
+        font-src 'self' fonts.gstatic.com data: ; \
+        script-src 'self' www.googletagmanager.com tagmanager.google.com www.google-analytics.com ssl.google-analytics.com 'unsafe-inline' ; \
+        base-uri 'self' ; \
+        frame-ancestors 'none' ;\
+        form-action 'self'; \
+        default-src 'none' ; \
+    "
+    Header always append X-Frame-Options SAMEORIGIN
+    Header always set Referrer-Policy "same-origin"
+    Header always set Feature-Policy "vibrate 'self'; usermedia *"
+    Header set X-Content-Type-Options nosniff
+    Header set X-Permitted-Cross-Domain-Policies "none"
+</IfModule>
+
+
+
+
 ### SILVERSTRIPE START ###
 
 # Deny access to templates (but allow from localhost)
