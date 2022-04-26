@@ -1,11 +1,11 @@
-# example security headers
+### start example security headers
 
 <IfModule mod_headers.c>
     Header set Content-Security-Policy " \
         upgrade-insecure-requests ; \
-        connect-src 'self' mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com tagmanager.google.com www.goog>
+        connect-src 'self' mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com tagmanager.google.com www.google-analytics.com ssl.google-analytics.com; \
         style-src 'self' data: mysite.com.nz www.mysite.com.nz  tagmanager.google.com fonts.googleapis.com 'unsafe-inline'; \
-        img-src 'self' data: mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com 'unsafe-inline' 'unsafe-eval>
+        img-src 'self' data: mysite.com.nz www.mysite.com.nz  ssl.gstatic.com www.gstatic.com www.google-analytics.com www.googletagmanager.com 'unsafe-inline' 'unsafe-eval' ; \
         object-src 'self' ; \
         font-src 'self' fonts.gstatic.com data: ; \
         script-src 'self' www.googletagmanager.com tagmanager.google.com www.google-analytics.com ssl.google-analytics.com 'unsafe-inline' ; \
@@ -22,7 +22,7 @@
 </IfModule>
 
 
-
+### end example security headers
 
 ### SILVERSTRIPE START ###
 
