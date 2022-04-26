@@ -1,0 +1,24 @@
+  GNU nano 4.8                                                                                                                                                                    app/_config/env/security.yml                                                                                                                                                                               
+---
+Name: security
+After: "#cwpsecurity"
+Except:
+  environment: dev
+---
+# Enable HTTP Strict Transport Security (HSTS), with a short max-age default.
+# Once you're confident with the setting in production,
+# it is encouraged to increase the max-age.
+# See https://www.cwp.govt.nz/developer-docs/en/2/working_with_projects/security/
+# See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
+CWP\Core\Control\InitialisationMiddleware:
+  strict_transport_security: "max-age=31536000"
+# Configure SSL redirection for every route (override default ForceSSLPatterns).
+# Required for the HSTS configuration above to take effect.
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    properties:
+      ForceSSL: true
+      ForceSSLPatterns: null
+
+
+
