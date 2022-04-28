@@ -77,7 +77,7 @@ Nothing included here
  - [sunnysideup/test-email](https://github.com/sunnysideup/silverstripe-test-email): is email working?  Why not test it?
  - [sunnysideup/sanitise-class-name](https://github.com/sunnysideup/silverstripe-sanitise-class-name): turn fully qualified class names into short one in a standard way - should be part of the Silverstripe Core.
  - [sunnysideup/release](https://github.com/sunnysideup/silverstripe-release): an easy way to release your site. Basically a poormans' version of Silverstripe Cloud. 
-
+ - [thewebmen/silverstripe-slacklogger](https://github.com/thewebmen/silverstripe-slacklogger) - send all errors to your slack channel
 
 ##### also consider
 
