@@ -1,4 +1,4 @@
-cd ..
+#!/bin/bash
 rm public/cache -rf
 sudo rm themes/base/dist/*.gz -rf
 cd themes/sswebpack_engine_only/

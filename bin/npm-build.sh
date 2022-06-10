@@ -1,4 +1,4 @@
-cd ..
+#!/bin/bash
 cd themes/sswebpack_engine_only/
 npm install
 npm run build --theme_dir=themes/base
