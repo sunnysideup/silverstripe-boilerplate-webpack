@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ..
 npm install -g npm
 
 cd themes/sswebpack_engine_only/
