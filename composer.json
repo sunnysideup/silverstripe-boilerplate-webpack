@@ -51,7 +51,7 @@
         "sunnysideup/config_manager": "dev-master",
         "sunnysideup/migration-task": "dev-master",
         "sunnysideup/vardump": "dev-master",
-        "oddnoc/silverstripe-artefactcleaner": "dev-master"
+        "oddnoc/silverstripe-artefactcleaner": "*"
     },
     "suggest": {
         "jonom/focuspoint": "pinpoint images to specific focus point",
@@ -81,6 +81,11 @@
         "process-timeout": 600,
         "preferred-install": {
             "*": "source"
+        },
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
         }
     },
     "prefer-stable": true,
