@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - .:/var/www/html/
+    depends_on:
+      - mysql
+    links:
+      - mysql
+
+  mysql:
+    image: 'mysql:5.7'
+    ports:
+      - '3306:3306'
+    volumes:
+      - 'database:/var/lib/mysql'
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: admin
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+
+volumes:
+  database: ~
+
