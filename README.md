@@ -58,6 +58,7 @@ For more elemental modules, please visit: [https://ssmods.com/requires-elemental
 ## bootstrap
 
 Nothing included here
+- [elliot-sawyer/bootswatcher](https://github.com/elliot-sawyer/bootswatcher) - awesome way to allow you to use any form of bootstrap 
 
 ##### also recommended
 
