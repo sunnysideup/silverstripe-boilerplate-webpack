@@ -59,6 +59,11 @@ ErrorDocument 500 /assets/error-500.html
     # Enable HTTP Basic authentication workaround for PHP running in CGI mode
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
+    # force https
+    RewriteCond %{ENV:SS_ENVIRONMENT_TYPE} !^dev$
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}   [L,R=301]
+
     # Deny access to potentially sensitive files and folders
     RewriteRule ^vendor(/|$) - [F,L,NC]
     RewriteRule ^\.env - [F,L,NC]
