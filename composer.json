@@ -3,9 +3,9 @@
     "type": "silverstripe-recipe",
     "description": "Boilerplate for Silverstripe Site with Webpack",
     "require": {
-        "php": ">=7.4.0",
+        "php": ">=8.1",
         "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-cms": "^4.8",
+        "silverstripe/cms": "^4.0 || ^5.0",
         "silverstripe/login-forms": "^4.1",
         "dnadesign/silverstripe-elemental": "^4",
         "silverstripe/spamprotection": "^3.0",
