@@ -1,0 +1,161 @@
+"php": ">8.2",
+"bramdeleeuw/silverstripe-schema": "dev-master",
+"brettt89/silverstripe-garbage-collector": "dev-master",
+
+"silverstripe/googlesitemaps": "^3",
+
+"silverstripe/mfa": "^5.0",
+"silverstripe/totp-authenticator": "^5.0",
+"silverstripe/login-forms": "^5",
+
+
+"silverstripe/recipe-cms": "^5.x-dev",
+
+"silverstripe/userforms": "^6",
+
+"sunnysideup/avoid-child-deletion": "dev-master",
+"sunnysideup/cleanup-tables": "dev-master",
+"sunnysideup/cms-niceties": "dev-master",
+"sunnysideup/cms_edit_link_field": "dev-master",
+"sunnysideup/dashboard-welcome-quicklinks": "dev-master",
+"sunnysideup/dataobjectsorter": "dev-master",
+
+"silverstripe/grouped-cms-menu": "^4",
+
+
+
+"sunnysideup/email_address_database_field": "dev-master",
+
+
+"sunnysideup/flush": "dev-master",
+"sunnysideup/flush-front-end": "dev-master",
+"sunnysideup/googleanalyticsbasics": "dev-master",
+
+"sunnysideup/metatags": "dev-master",
+"sunnysideup/model-admin-many-tabs": "dev-master",
+"sunnysideup/perfect_cms_images": "dev-master",
+"sunnysideup/permission_provider": "dev-master",
+"sunnysideup/phone_field": "dev-master",
+
+"sunnysideup/release": "dev-master",
+"sunnysideup/resize-all-images": "dev-main",
+"sunnysideup/sentry-made-easy": "dev-master",
+"sunnysideup/share_this_simple": "dev-master",
+"sunnysideup/silverstripe-4-5-compatibility": "dev-main",
+
+"sunnysideup/silverstripe-externalurlfield": "dev-master",
+
+"sunnysideup/site-wide-search": "dev-master",
+"sunnysideup/test-email": "dev-master",
+
+"sunnysideup/vardump": "dev-master",
+"sunnysideup/version-pruner": "dev-master",
+
+"sunnysideup/webpack_requirements_backend": "dev-master",
+"sunnysideup/yes-no-any-filter": "dev-master",
+"symbiote/silverstripe-gridfieldextensions": "^4",
+"undefinedoffset/silverstripe-nocaptcha": "^2.1",
+"undefinedoffset/sortablegridfield": "^2.0"
+
+
+
+
+{
+    "type": "vcs",
+    "url": "git@github.com:sunnysideup/silverstripe-garbage-collector.git"
+  },
+  {
+    "type": "vcs",
+    "url": "git@github.com:sunnysideup/silverstripe-schema.git"
+  },
+  {
+    "type": "vcs",
+    "url": "https://codeberg.org/S-GrabhamMadden/silverstripe-csp-headers"
+  }
+
+
+  "bummzack/sortablefile": "^2.1",
+  "pstaender/silverstripe-redis-cache": "dev-master",
+
+  "silvershop/silverstripe-hasonefield": "dev-main",
+
+  "sunnysideup/campaignmonitor": "dev-master",
+  "sunnysideup/download": "dev-main",
+  "sunnysideup/dropdown2autocomplete": "dev-master",
+  "sunnysideup/faqs": "dev-master",
+  "sunnysideup/ecommerce": "dev-master",
+  "sunnysideup/google_address_field": "dev-master",
+  "sunnysideup/silverstripe-ajax-select-field": "dev-master",
+  "sunnysideup/title_dataobject": "dev-master",
+  "sunnysideup/googlemapbasic": "dev-master",
+
+
+  {
+    "adrhumphreys/silverstripe-textdropdownfield": "Provides a dropdown field for text values, enhancing content management flexibility.",
+    "axllent/silverstripe-version-truncator": "Automatically truncates the version history of pages to improve database performance.",
+    "benmanu/silverstripe-simple-styleguide": "Generates a simple style guide for your SilverStripe site, helping maintain design consistency.",
+    "bigfork/silverstripe-fail-whale": "Displays a custom error page with a Fail Whale image when the site encounters an error.",
+    "bigfork/silverstripe-image-recipe": "Provides a set of predefined image transformations for consistent imagery across your site.",
+    "bigfork/silverstripe-oauth-login": "Integrates OAuth2 login functionality, allowing users to log in using external providers.",
+    "bigfork/silverstripe-sentry-handler": "Integrates with Sentry to provide real-time error tracking and reporting for your SilverStripe application.",
+    "bringyourownideas/silverstripe-composer-security-checker": "Checks your SilverStripe project's dependencies for known security vulnerabilities.",
+    "bringyourownideas/silverstripe-composer-update-checker": "Monitors and reports available updates for your SilverStripe project's composer dependencies.",
+    "bringyourownideas/silverstripe-maintenance": "A suite of tools to assist with the maintenance of your SilverStripe site, including update and security checks.",
+    "bummzack/sortablefile": "Adds sorting capabilities to files and images in SilverStripe, enhancing content management.",
+    "colymba/gridfield-bulk-editing-tools": "Enhances SilverStripe's GridField with bulk uploading, editing, and deleting functionalities.",
+    "dnadesign/silverstripe-elemental": "Provides a flexible content block approach to site building with SilverStripe.",
+    "dnadesign/silverstripe-elemental-userforms": "Integrates user forms as content blocks within the Elemental framework.",
+    "dnadesign/silverstripe-elemental-virtual": "Allows for the reuse of elemental content blocks across multiple pages.",
+    "dynamic/silverstripe-base-site": "A foundational site setup for SilverStripe projects, including common configurations and components.",
+    "dynamic/silverstripe-carousel": "Adds a carousel content block to SilverStripe, allowing for the easy creation of image sliders.",
+    "firebrandhq/silverstripe-phonelink": "Provides a simple field for managing phone links in the SilverStripe CMS.",
+    "foxworth42/oauth2-okta": "A SilverStripe module providing authentication via Okta using OAuth2.",
+    "heyday/silverstripe-menumanager": "Allows site administrators to easily manage and customize menus in SilverStripe.",
+    "innoweb/silverstripe-googleanalytics": "Integrates Google Analytics tracking into SilverStripe, including support for GA4.",
+    "innoweb/silverstripe-social-metadata": "Enhances SEO and social media presence by improving metadata management in SilverStripe.",
+    "innoweb/silverstripe-social-share": "Adds social sharing buttons to SilverStripe, encouraging content sharing on social platforms.",
+    "jonom/focuspoint": "Improves image cropping in SilverStripe by allowing users to specify the focal point of images.",
+    "jonom/silverstripe-betternavigator": "A frontend tool for SilverStripe developers and content authors, providing useful information and shortcuts.",
+    "kaftka/theme-sla": "A custom theme for SilverStripe, providing a unique look and feel for your site.",
+    "kinglozzer/metatitle": "Allows for custom meta titles for pages in SilverStripe, improving SEO.",
+    "silverstripe/blog": "Adds comprehensive blogging functionality to SilverStripe, including posts, categories, and tags.",
+    "silverstripe/contentreview": "Enables scheduled reviews of site content, ensuring content remains accurate and up-to-date.",
+    "silverstripe/documentconverter": "Converts Microsoft Word documents to HTML, simplifying content migration to SilverStripe.",
+    "silverstripe/elemental-bannerblock": "Adds a banner block to the Elemental suite, for creating eye-catching hero sections.",
+    "silverstripe/elemental-fileblock": "Introduces a file block to Elemental, allowing files to be easily embedded within content.",
+    "silverstripe/mimevalidator": "Enhances file upload security by validating the MIME type of uploaded files.",
+    "silverstripe/securityreport": "Generates security reports for SilverStripe, highlighting potential vulnerabilities.",
+    "silverstripe/sharedraftcontent": "Allows SilverStripe content authors to share draft content with non-CMS users for feedback.",
+    "silverstripe/sitewidecontent-report": "Provides a report of all content across a SilverStripe site, aiding in content management.",
+    "silverstripe/spamprotection": "Integrates spam protection mechanisms into SilverStripe forms.",
+    "silverstripe/theme-colorpicker": "Adds a color picker to the SilverStripe CMS, allowing for customizable color schemes.",
+    "silverstripe/theme-fontpicker": "Introduces a font picker to the SilverStripe CMS for easy typography customization.",
+    "silverstripe/userforms": "Enables the creation of custom forms through the SilverStripe CMS, supporting a range of field types.",
+    "silverstripe/widgets": "Adds widget functionality to SilverStripe, allowing for the creation of reusable components.",
+    "sminnee/tagmanager": "A tagging solution for SilverStripe, enabling efficient content organization and retrieval.",
+    "symbiote/silverstripe-advancedworkflow": "Adds advanced workflow capabilities to SilverStripe, for detailed content publishing workflows.",
+    "symbiote/silverstripe-gridfieldextensions": "Extends SilverStripe's GridField with additional features, such as sortable rows and inline editing.",
+    "symbiote/silverstripe-grouped-cms-menu": "Organizes the SilverStripe CMS menu into groups for better usability.",
+    "symfony/process": "Provides a component for executing commands in sub-processes, enhancing server-side functionality.",
+    "tractorcow/silverstripe-colorpicker": "A color picker field for SilverStripe, allowing for enhanced content customization.",
+    "tractorcow/silverstripe-fluent": "Adds multilingual support to SilverStripe, enabling content to be authored in multiple languages.",
+    "unclecheese/display-logic": "Enables conditional display logic for fields in the SilverStripe CMS, improving user experience.",
+    "wilr/silverstripe-googlesitemaps": "Automatically generates Google sitemaps for SilverStripe sites, improving SEO.",
+    "zaita/sdlt-framework": "A security development lifecycle toolkit for SilverStripe, aiding in secure application development.",
+    "zaita/sdlt-theme": "A theme for the SDLT framework, providing a consistent user interface for security-related tasks.",
+
+        "bummzack/sortablefile": "Adds sorting capabilities to files and images in SilverStripe, enhancing content management.",
+        "pstaender/silverstripe-redis-cache": "Integrates Redis caching into SilverStripe for improved performance and scalability.",
+        "silvershop/silverstripe-hasonefield": "Provides a more user-friendly interface for managing 'has_one' relationships in SilverStripe CMS.",
+        "sunnysideup/campaignmonitor": "Integrates Campaign Monitor email marketing services with SilverStripe, allowing for seamless email campaign management.",
+        "sunnysideup/download": "Facilitates file downloads in SilverStripe, offering advanced features like download statistics and secure downloads.",
+        "sunnysideup/dropdown2autocomplete": "Transforms dropdown fields into autocomplete fields in SilverStripe, improving user experience.",
+        "sunnysideup/ecommerce": "A comprehensive e-commerce solution for SilverStripe, providing a robust framework for building online stores.",
+        "sunnysideup/faqs": "Enables the easy creation and management of a FAQ section in SilverStripe, enhancing site usability.",
+        "sunnysideup/google_address_field": "Integrates Google's address search functionality into SilverStripe forms, simplifying address input.",
+        "sunnysideup/googlemapbasic": "Provides simple Google Maps integration for SilverStripe, allowing for the easy display of maps and locations.",
+        "sunnysideup/silverstripe-ajax-select-field": "Introduces an AJAX-powered select field to SilverStripe, enabling dynamic dropdowns that load data on demand.",
+        "sunnysideup/title_dataobject": "Allows for the automatic generation of titles for DataObjects in SilverStripe, streamlining content creation."
+
+      
+  
