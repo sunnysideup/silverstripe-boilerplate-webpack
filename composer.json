@@ -1,103 +1,103 @@
 {
-    "name": "sunnysideup/boilerplate-webpack",
-    "type": "silverstripe-recipe",
-    "description": "Boilerplate for Silverstripe Site with Webpack",
-    "require": {
-        "php": ">=8.1",
-        "silverstripe/cms": "^4.0 || ^5.0",
-        "silverstripe/login-forms": "*",
-        "dnadesign/silverstripe-elemental": "^4 || ^5",
-        "silverstripe/userforms": "*",
-        "undefinedoffset/silverstripe-nocaptcha": "*",
-        "bummzack/sortablefile": "*",
-        "wilr/silverstripe-googlesitemaps": "*",
-        "silverstripe/spamprotection": "*",
-        "undefinedoffset/sortablegridfield": "*",
-        "sunnysideup/phone_field": "dev-master",
-        "sunnysideup/email_address_database_field": "dev-master",
-        "sunnysideup/error-log-made-easy": "dev-master",
-        "sunnysideup/elemental-edit-me-button": "dev-main",
-        "sunnysideup/webpack_requirements_backend": "dev-master",
-        "sunnysideup/perfect_cms_images": "dev-master",
-        "sunnysideup/share_this_simple": "dev-master",
-        "sunnysideup/internal-external-link": "dev-master",
-        "sunnysideup/elemental-switch-tabs": "dev-master",
-        "a2nt/silverstripe-treemultiselect-sortable-field": "dev-main",
-        "sunnysideup/cms-niceties": "dev-master",
-        "sunnysideup/cms_edit_link_field": "dev-master",
-        "sunnysideup/metatags": "dev-master",
-        "sunnysideup/googleanalyticsbasics": "dev-master",
-        "sunnysideup/simple-template-caching": "dev-master",
-        "sunnysideup/cleaner_tinymce_config": "dev-master",
-        "sunnysideup/yes-no-any-filter": "dev-master",
-        "sunnysideup/release": "dev-master",
-        "sunnysideup/fulltext-search-engine-simple": "dev-master",
-        "sunnysideup/collect-elemental-content": "dev-master",
-        "sunnysideup/site-wide-search": "dev-master",
-        "sunnysideup/sanitise-class-name": "dev-master",
-        "sunnysideup/dataobjectsorter": "dev-master",
-        "sunnysideup/flush-front-end": "dev-master",
-        "sunnysideup/duplicate-urlsegments": "dev-master",
-        "burnbright/silverstripe-externalurlfield": "dev-master"
+  "name": "sunnysideup/boilerplate-webpack",
+  "type": "silverstripe-recipe",
+  "description": "Boilerplate for Silverstripe Site with Webpack",
+  "require": {
+    "php": ">=8.1",
+    "silverstripe/cms": "^4.0 || ^5.0",
+    "silverstripe/login-forms": "*",
+    "dnadesign/silverstripe-elemental": "^4 || ^5",
+    "silverstripe/userforms": "*",
+    "undefinedoffset/silverstripe-nocaptcha": "*",
+    "bummzack/sortablefile": "*",
+    "wilr/silverstripe-googlesitemaps": "*",
+    "silverstripe/spamprotection": "*",
+    "undefinedoffset/sortablegridfield": "*",
+    "sunnysideup/phone_field": "5.x-dev",
+    "sunnysideup/email_address_database_field": "5.x-dev",
+    "sunnysideup/error-log-made-easy": "5.x-dev",
+    "sunnysideup/elemental-edit-me-button": "5.x-dev",
+    "sunnysideup/webpack_requirements_backend": "5.x-dev",
+    "sunnysideup/perfect_cms_images": "5.x-dev",
+    "sunnysideup/share_this_simple": "5.x-dev",
+    "sunnysideup/internal-external-link": "5.x-dev",
+    "sunnysideup/elemental-switch-tabs": "5.x-dev",
+    "a2nt/silverstripe-treemultiselect-sortable-field": "dev-main",
+    "sunnysideup/cms-niceties": "5.x-dev",
+    "sunnysideup/cms_edit_link_field": "5.x-dev",
+    "sunnysideup/metatags": "5.x-dev",
+    "sunnysideup/googleanalyticsbasics": "5.x-dev",
+    "sunnysideup/simple-template-caching": "5.x-dev",
+    "sunnysideup/cleaner_tinymce_config": "5.x-dev",
+    "sunnysideup/yes-no-any-filter": "5.x-dev",
+    "sunnysideup/release": "5.x-dev",
+    "sunnysideup/fulltext-search-engine-simple": "5.x-dev",
+    "sunnysideup/collect-elemental-content": "5.x-dev",
+    "sunnysideup/site-wide-search": "5.x-dev",
+    "sunnysideup/sanitise-class-name": "5.x-dev",
+    "sunnysideup/dataobjectsorter": "5.x-dev",
+    "sunnysideup/flush-front-end": "5.x-dev",
+    "sunnysideup/duplicate-urlsegments": "5.x-dev",
+    "burnbright/silverstripe-externalurlfield": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "sminnee/phpunit-mock-objects": "^3.4.5",
+    "sunnysideup/templateoverview": "5.x-dev",
+    "sunnysideup/prettyphoto": "5.x-dev",
+    "sunnysideup/typography": "5.x-dev",
+    "sunnysideup/sswebpack_engine_only": "5.x-dev",
+    "sunnysideup/config_manager": "5.x-dev",
+    "sunnysideup/migration-task": "5.x-dev",
+    "sunnysideup/vardump": "5.x-dev",
+    "oddnoc/silverstripe-artefactcleaner": "*"
+  },
+  "suggest": {
+    "jonom/focuspoint": "pinpoint images to specific focus point",
+    "silverstripe/lumberjack": "great for large site trees",
+    "sunnysideup/test-email": "is email working?  Why not test it?"
+  },
+  "extra": {
+    "resources-dir": "_resources",
+    "expose": [
+      "themes/base/dist"
+    ],
+    "project-files-installed": [
+      "app/.htaccess",
+      "app/_config.php",
+      "app/_config/mimevalidator.yml",
+      "app/_config/mysite.yml",
+      "app/src/Page.php",
+      "app/src/PageController.php"
+    ],
+    "public-files-installed": [
+      ".htaccess",
+      "index.php",
+      "web.config"
+    ]
+  },
+  "config": {
+    "process-timeout": 600,
+    "preferred-install": {
+      "*": "source"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "sminnee/phpunit-mock-objects": "^3.4.5",
-        "sunnysideup/templateoverview": "dev-master",
-        "sunnysideup/prettyphoto": "dev-master",
-        "sunnysideup/typography": "dev-master",
-        "sunnysideup/sswebpack_engine_only": "dev-master",
-        "sunnysideup/config_manager": "dev-master",
-        "sunnysideup/migration-task": "dev-master",
-        "sunnysideup/vardump": "dev-master",
-        "oddnoc/silverstripe-artefactcleaner": "*"
+    "allow-plugins": {
+      "composer/installers": true,
+      "silverstripe/recipe-plugin": true,
+      "silverstripe/vendor-plugin": true
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "MysiteNz\\Website\\": "app/src"
     },
-    "suggest": {
-        "jonom/focuspoint": "pinpoint images to specific focus point",
-        "silverstripe/lumberjack": "great for large site trees",
-        "sunnysideup/test-email": "is email working?  Why not test it?"
-    },
-    "extra": {
-        "resources-dir": "_resources",
-        "expose": [
-            "themes/base/dist"
-        ],
-        "project-files-installed": [
-            "app/.htaccess",
-            "app/_config.php",
-            "app/_config/mimevalidator.yml",
-            "app/_config/mysite.yml",
-            "app/src/Page.php",
-            "app/src/PageController.php"
-        ],
-        "public-files-installed": [
-            ".htaccess",
-            "index.php",
-            "web.config"
-        ]
-    },
-    "config": {
-        "process-timeout": 600,
-        "preferred-install": {
-            "*": "source"
-        },
-        "allow-plugins": {
-            "composer/installers": true,
-            "silverstripe/recipe-plugin": true,
-            "silverstripe/vendor-plugin": true
-        }
-    },
-    "prefer-stable": true,
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "MysiteNz\\Website\\": "app/src"
-        },
-        "files": [
-            "app/src/Page.php",
-            "app/src/PageController.php"
-        ]
-    },
-    "prefer": "source",
-    "sort-packages": true
+    "files": [
+      "app/src/Page.php",
+      "app/src/PageController.php"
+    ]
+  },
+  "prefer": "source",
+  "sort-packages": true
 }
